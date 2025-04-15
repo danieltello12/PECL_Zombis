@@ -21,6 +21,7 @@ public class Mundo {
             return zonasInseguras.get(zona);
         }
     }
+    //a
 
     public boolean atacar_Humano(Humano presa) {
         try {
