@@ -5,11 +5,14 @@ import com.example.pecl_zombis.HelloController;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Mundo {
     HelloController controlador;
+    ExecutorService exHumanos= Executors.newFixedThreadPool(100);
     private Refugio refugio = new Refugio();
     private List<List<Humano>> zonasInseguras = new ArrayList<>();
     ArrayList<Lock> tuneles = new ArrayList<>();
@@ -30,9 +33,11 @@ public class Mundo {
         }
         for(int i=0;i<10000;i++){
             String id=String.format("H%04d", i);
-            Humano humano= new Humano(id,this);
             Thread.sleep((int) (Math.random() * 500) + 2000);
-            humano.start();
+            exHumanos.submit(()-> {
+                Humano humano = new Humano(id, this);
+                humano.start();
+            });
         }
 
     }
