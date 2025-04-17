@@ -14,11 +14,12 @@ import java.util.concurrent.locks.ReentrantLock;
     Falta:
         1-Metodos de salida de las zonas (en la ventana)(clase hellocontroller)
         2-Faltan Synchronized
+        3-Revisar si hace falta o no un pool de hilos
  */
 
 public class Mundo {
     HelloController controlador;
-    ExecutorService exHumanos= Executors.newFixedThreadPool(100);
+    //ExecutorService exHumanos= Executors.newFixedThreadPool(100);
     private Refugio refugio = new Refugio();
     private List<List<Humano>> zonasInseguras = new ArrayList<>();
     ArrayList<Lock> tuneles = new ArrayList<>();
@@ -40,10 +41,16 @@ public class Mundo {
         for(int i=0;i<10000;i++){
             String id=String.format("H%04d", i);
             Thread.sleep((int) (Math.random() * 500) + 2000);
+            Humano humano = new Humano(id, this);
+            humano.start();
+           /*
             exHumanos.submit(()-> {
+
                 Humano humano = new Humano(id, this);
                 humano.start();
             });
+
+            */
         }
 
     }
