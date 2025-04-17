@@ -10,6 +10,12 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/*
+    Falta:
+        1-Metodos de salida de las zonas (en la ventana)(clase hellocontroller)
+        2-Faltan Synchronized
+ */
+
 public class Mundo {
     HelloController controlador;
     ExecutorService exHumanos= Executors.newFixedThreadPool(100);
