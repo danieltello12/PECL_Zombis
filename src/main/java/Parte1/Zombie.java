@@ -7,7 +7,8 @@ public class Zombie extends Thread {
     private String id;
     private int contadorMuertes=0;
 
-    public Zombie(String id){
+    public Zombie(String id, Mundo mundo){
+        this.mundo=mundo;
         this.id=id;
     }
 
