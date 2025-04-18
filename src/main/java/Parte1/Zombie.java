@@ -8,8 +8,11 @@ public class Zombie extends Thread {
     private int contadorMuertes=0;
 
     public Zombie(String id, Mundo mundo){
-        this.mundo=mundo;
         this.id=id;
+        this.mundo=mundo;
+    }
+    public String getZombieId(){
+        return id;
     }
 
     public void run(){
@@ -19,11 +22,18 @@ public class Zombie extends Thread {
             List<Humano> lista_humanos=mundo.getContador_humanos(eleccion_zona);
             if (!lista_humanos.isEmpty()){
                 Humano presa=lista_humanos.get((int)(Math.random()*lista_humanos.size()));
-                if(mundo.atacar_Humano(presa)){
+                if(mundo.atacar_Humano(this, presa)){
                     contadorMuertes++;
-                    System.out.println("El zombi "+id+" tiene "+contadorMuertes+" muertes");
+                    System.out.println("El zombi "+id+" ha matado a "+contadorMuertes+" humano(s)");
 
                 }
+                try {
+                    sleep((int)(Math.random()*1000)+2000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }else{
+                System.out.println("No hay humanos en la zona "+ eleccion_zona+ " insegura");
                 try {
                     sleep((int)(Math.random()*1000)+2000);
                 } catch (InterruptedException e) {
