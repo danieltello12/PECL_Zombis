@@ -29,6 +29,9 @@ public class Humano extends Thread{
         return id;
     }
     public void run() {
+        System.out.println("Hola desde " + id + " en hilo " + Thread.currentThread().getName());
+
+
         while (vivo) {
             int tunel = zonaComun();
             try {
@@ -53,7 +56,11 @@ public class Humano extends Thread{
             }
 
         }
+
+
     }
+
+
     public int zonaComun(){
         /*
 
@@ -115,6 +122,7 @@ public class Humano extends Thread{
     //El humano ha salido del tunel y accede al exterior
     return eleccion_tunel;
 }
+
 
     public void zonaExterior(int zona) throws InterruptedException {
 

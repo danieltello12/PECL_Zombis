@@ -30,15 +30,12 @@ public class Mundo {
         Refugio refugio = new Refugio();
         this.refugio = refugio;
 
-        Zombie paciente0= new Zombie("Z0001",this);
-        paciente0.start();
-
         for (int i=0 ;i<=4 ;i++){
             zonasInseguras.add(new ArrayList<>());
             tuneles.add(new ReentrantLock());
             barrerasTuneles.add(new CyclicBarrier(3));
         }
-        for(int i=0;i<10000;i++){
+        for(int i=0;i<10;i++){
             String id=String.format("H%04d", i);
             Thread.sleep((int) (Math.random() * 500) + 2000);
             Humano humano = new Humano(id, this);
@@ -52,7 +49,13 @@ public class Mundo {
 
             */
         }
+        Zombie paciente0= new Zombie("Z0001",this);
+        paciente0.start();
 
+    }
+    public static void main(String[] args) throws InterruptedException {
+        HelloController controlador= new HelloController();
+        Mundo mundo = new Mundo(controlador);
     }
     public Refugio getRefugio() {
         return refugio;

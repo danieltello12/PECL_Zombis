@@ -15,7 +15,7 @@ public class Zombie extends Thread {
     public void run(){
         while(true){
             int eleccion_zona=(int)(Math.random()*4);
-            System.out.println("El zombi "+id+" ha elegido la zona "+eleccion_zona+ "insegura");
+            System.out.println("El zombi "+id+" ha elegido la zona "+eleccion_zona+ " insegura");
             List<Humano> lista_humanos=mundo.getContador_humanos(eleccion_zona);
             if (!lista_humanos.isEmpty()){
                 Humano presa=lista_humanos.get((int)(Math.random()*lista_humanos.size()));
