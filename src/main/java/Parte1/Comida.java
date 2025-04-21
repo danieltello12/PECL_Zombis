@@ -1,38 +1,46 @@
 package Parte1;
 
-import java.util.Queue;
+import javax.swing.*;
 import java.util.concurrent.LinkedBlockingQueue;
 
-public class Refugio {
+public class Comida {
     private int comida=0;
-
+    JTextArea tf;
+    public Comida(JTextArea tf) {
+        this.tf=tf;
+    }
     private LinkedBlockingQueue<Thread> colaComida = new LinkedBlockingQueue<>();
 
     public int getComida() {
         return comida;
     }
-    public synchronized void setComida(int cantidad) {
-        this.comida=cantidad+comida;
-        notifyAll(); //Despertamos a los que esten en cola
+    public void setComida(int cantidad) {
+        synchronized (this) {
+            this.comida = cantidad + comida;
+            tf.setText(this.comida + "");
+            this.notifyAll();
+        }//Despertamos a los que esten en cola
     }
     public synchronized void comer(Humano humano) throws InterruptedException {
 
             if (comida > 0) {
                 comida--;
+                tf.setText(this.comida+"");
                 Thread.sleep((int) (Math.random() * 3000) + 5000);
                 System.out.println("El humano " + humano.getHumanoId() + " ha comido");
-            } else if (comida == 0) {
+            } else {
                 System.out.println("El humano " + humano.getHumanoId() +
                         " esta en la cola hasta que haya comida disponible");
                 colaComida.offer(humano);
                 while (colaComida.peek() != humano) {
-                    wait();
+                    this.wait();
                 }
                 colaComida.poll();
                 comida--;
+                tf.setText(this.comida+"");
                 Thread.sleep((int) (Math.random() * 3000) + 5000);
                 System.out.println("El humano " + humano.getHumanoId() + " ha comido");
-                notifyAll();
+                this.notifyAll();
             }
 
     }

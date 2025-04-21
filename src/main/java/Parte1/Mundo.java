@@ -1,82 +1,201 @@
 package Parte1;
 
 import com.example.pecl_zombis.HelloController;
+import com.example.pecl_zombis.ListaZonasH;
+import com.example.pecl_zombis.ListaZonasZ;
 
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/*
-    Falta:
-        1-Metodos de salida de las zonas (en la ventana)(clase hellocontroller)
-        2-Faltan Synchronized
 
- */
+public class Mundo extends javax.swing.JFrame{
 
-public class Mundo {
-    HelloController controlador;
-    //ExecutorService exHumanos= Executors.newFixedThreadPool(100);
-    private Refugio refugio = new Refugio();
-    protected List<List<Humano>> zonasInseguras = new ArrayList<>();
-    ArrayList<Lock> tuneles = new ArrayList<>();
+    private javax.swing.JLabel TituloRef;
+    private javax.swing.JLabel TituloDes;
+    private javax.swing.JLabel Comida;
+    private javax.swing.JLabel TituloCom;
+    private javax.swing.JLabel TitulComun;
+    private javax.swing.JLabel TituloTun;
+    private javax.swing.JLabel TituloExt;
+    private ArrayList<JTextArea> zonasEntradaTunelText= new ArrayList<>();
+    private ArrayList<JTextArea> zonasSalidaTunelText= new ArrayList<>();
+    private ArrayList<JTextArea> zonasTunelText= new ArrayList<>();
+    private JTextArea DescansoText;
+    private JTextArea ComedorText;
+    private JTextArea zonaComunText;
+    private JTextArea ComidaText;
+
+    private ArrayList<JTextArea> zonasExtTextH= new ArrayList<>();
+    private ArrayList<JTextArea> zonasExtTextZ= new ArrayList<>();
+    protected ListaZonasH Descanso ;
+    protected ListaZonasH comedor ;
+    protected ListaZonasH zonaComun ;
+    protected List<ListaZonasH> zonasEntradaTunel = new ArrayList<>();
+    protected List<ListaZonasH> zonasSalidaTunel = new ArrayList<>();
+    protected List<ListaZonasH> zonasTunel = new ArrayList<>();
+    protected List<ListaZonasH> zonasInseguras = new ArrayList<>();
+    private List<ListaZonasZ> zonasInsegurasZ= new ArrayList<>();
+    ArrayList<Semaphore> tuneles = new ArrayList<>();
     ArrayList<CyclicBarrier>  barrerasTuneles= new ArrayList<>();
+    private Comida comida;
 
-    public Mundo(HelloController controlador) throws InterruptedException {
-        this.controlador=controlador;
-        Refugio refugio = new Refugio();
-        this.refugio = refugio;
+    public Mundo() throws InterruptedException {
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        initComponents();
+        Descanso = new ListaZonasH(DescansoText);
+        comedor = new ListaZonasH(ComedorText);
+        zonaComun = new ListaZonasH(zonaComunText);
+        Comida comida = new Comida(ComidaText);
 
-        for (int i=0 ;i<=4 ;i++){
-            zonasInseguras.add(new ArrayList<>());
-            tuneles.add(new ReentrantLock());
+        this.comida = comida;
+
+        for (int i=0 ;i<4 ;i++){
+            zonasInseguras.add(new ListaZonasH(zonasExtTextH.get(i)));
+            zonasInsegurasZ.add(new ListaZonasZ(zonasExtTextZ.get(i)));
+            zonasEntradaTunel.add(new ListaZonasH(zonasEntradaTunelText.get(i)));
+            zonasSalidaTunel.add(new ListaZonasH(zonasSalidaTunelText.get(i)));
+            zonasTunel.add(new ListaZonasH(zonasTunelText.get(i)));
+            tuneles.add(new Semaphore(1));
             barrerasTuneles.add(new CyclicBarrier(3));
         }
+        this.setVisible(true);
         for(int i=1;i<=10;i++){
             String id=String.format("H%04d", i);
             Thread.sleep((int) (Math.random() * 500) + 2000);
             Humano humano = new Humano(id, this);
             humano.start();
-           /*
-            exHumanos.submit(()-> {
-
-                Humano humano = new Humano(id, this);
-                humano.start();
-            });
-
-            */
         }
         Zombie paciente0= new Zombie("Z0000",this);
         paciente0.start();
 
     }
+    public ListaZonasZ getZonasInsegurasZ(int zona) {
+        return zonasInsegurasZ.get(zona);
+    }
     public static void main(String[] args) throws InterruptedException {
         HelloController controlador= new HelloController();
-        Mundo mundo = new Mundo(controlador);
+        Mundo mundo = new Mundo();
     }
-    public Refugio getRefugio() {
-        return refugio;
-    }
-    public synchronized HelloController getControlador() {
-        return controlador;
+    public Comida getComida() {
+        return comida;
     }
 
     public List<Humano> getContador_humanos(int zona) {
         {
-            return zonasInseguras.get(zona);
+            return zonasInseguras.get(zona).getLista();
         }
     }
 
-    public boolean atacar_Humano(Zombie zombie,Humano presa) {
-        presa.setAtacado();
+
+    private void initComponents() {
+
+        Font fontGrande = new Font("SansSerif", Font.BOLD, 16);
+
+        zonaComunText = crearTextArea(fontGrande,200,70);
+        ComedorText = crearTextArea(fontGrande,200,70);
+        DescansoText = crearTextArea(fontGrande,200,70);
+        ComidaText = crearTextArea(fontGrande,300,30);
+
+        zonasEntradaTunelText = new ArrayList<>();
+        zonasTunelText = new ArrayList<>();
+        zonasSalidaTunelText = new ArrayList<>();
+        zonasExtTextH = new ArrayList<>();
+        zonasExtTextZ = new ArrayList<>();
+
+        for (int i = 0; i < 4; i++) {
+            zonasEntradaTunelText.add(crearTextArea(fontGrande,200,70));
+            zonasTunelText.add(crearTextArea(fontGrande,200,30));
+            zonasSalidaTunelText.add(crearTextArea(fontGrande,200,70));
+            zonasExtTextH.add(crearTextArea(fontGrande,200,70));
+            zonasExtTextZ.add(crearTextArea(fontGrande,200,70));
+        }
+
+        // Panel Refugio
+        JPanel panelRefugio = new JPanel(new GridLayout(5, 2, 10, 10));
+        panelRefugio.setBorder(BorderFactory.createTitledBorder("Refugio"));
+        panelRefugio.add(new JLabel("Zona Común"));
+        panelRefugio.add(wrapScroll(zonaComunText,200,70));
+        panelRefugio.add(new JLabel("Comedor"));
+        panelRefugio.add(wrapScroll(ComedorText,200,70));
+        panelRefugio.add(new JLabel("Comida"));
+        panelRefugio.add(wrapScroll(ComidaText,30,30));
+        panelRefugio.add(new JLabel("Descanso"));
+        panelRefugio.add(wrapScroll(DescansoText,200,70));
+
+        // Panel Túneles
+        JPanel panelTuneles = new JPanel(new GridLayout(5, 3, 10, 10));
+        panelTuneles.setBorder(BorderFactory.createTitledBorder("Túneles"));
+        panelTuneles.add(new JLabel("Entrada"));
+        panelTuneles.add(new JLabel("Túnel"));
+        panelTuneles.add(new JLabel("Salida"));
+
+        for (int i = 0; i < 4; i++) {
+            panelTuneles.add(wrapScroll(zonasEntradaTunelText.get(i),200,30));
+            panelTuneles.add(wrapScroll(zonasTunelText.get(i),200,30));
+            panelTuneles.add(wrapScroll(zonasSalidaTunelText.get(i),200,30));
+        }
+
+        // Panel Zona Exterior
+        JPanel panelExterior = new JPanel(new GridLayout(5, 2, 10, 10));
+        panelExterior.setBorder(BorderFactory.createTitledBorder("Zona Exterior"));
+        panelExterior.add(new JLabel("Humanos"));
+        panelExterior.add(new JLabel("Zombis"));
+
+        for (int i = 0; i < 4; i++) {
+            panelExterior.add(wrapScroll(zonasExtTextH.get(i),200,70));
+            panelExterior.add(wrapScroll(zonasExtTextZ.get(i),200,70));
+        }
+
+        // Contenedor principal
+        JPanel contenedor = new JPanel(new GridLayout(1, 3, 20, 20));
+        contenedor.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
+        contenedor.add(panelRefugio);
+        contenedor.add(panelTuneles);
+        contenedor.add(panelExterior);
+
+        // Ventana
+        setTitle("Simulación Apocalipsis Zombi");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(1280, 720);
+        setLocationRelativeTo(null);
+        setContentPane(contenedor);
+
+    }
+
+    private JTextArea crearTextArea(Font font,int alto, int ancho) {
+        JTextArea area = new JTextArea();
+        area.setFont(font);
+        area.setEditable(false);
+        area.setLineWrap(true);
+        area.setPreferredSize(new Dimension(alto,ancho));
+        area.setWrapStyleWord(true);
+        return area;
+    }
+
+    private JScrollPane wrapScroll(JTextArea area,int alto, int ancho) {
+        JScrollPane scroll = new JScrollPane(area);
+        scroll.setPreferredSize(new Dimension(alto, ancho));
+        scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+        scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        return scroll;
+    }
+
+
+
+    public boolean atacar_Humano(Zombie zombie,Humano presa,int zona)  {
+        presa.setPeleando();
         try {
             Thread.sleep((int) (Math.random() * 1000));
             int ataqueExitoso=(int)(Math.random()*100);
             if (ataqueExitoso<66){
                 System.out.println("El zombi "+zombie.getZombieId()+ " no ha podido matar al humano "+presa.getHumanoId());
+                presa.setLibre();
                 return false;
             } else{
                 System.out.println("El zombi " +zombie.getZombieId()+" ha logrado matar al humano  " +presa.getHumanoId());
@@ -84,14 +203,17 @@ public class Mundo {
                 String id= String.valueOf(presa.getHumanoId());
                 String nuevoid= id.replace("H", "Z");
                 Zombie nuevoZombi= new Zombie(nuevoid,this);
+                zonasInseguras.get(zona).sacar(presa);
                 presa.setMuerto();
                 presa.interrupt();
                 nuevoZombi.start();
-                return true;
+
             }
         } catch(Exception e){
             System.out.println("Error sucedido al atacar al humano " + presa.getId());
+            System.out.println(e);
             return false;
         }
+        return false;
     }
 }

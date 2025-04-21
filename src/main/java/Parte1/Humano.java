@@ -1,7 +1,10 @@
 package Parte1;
 
+import com.example.pecl_zombis.Inicio;
+
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 
 public class Humano extends Thread{
@@ -9,6 +12,8 @@ public class Humano extends Thread{
     private String id;
     Boolean atacado;
     Boolean vivo;
+    Boolean peleando=false;
+
 
 
 
@@ -17,43 +22,63 @@ public class Humano extends Thread{
         this.atacado=false;
         this.vivo=true;
         this.mundo=mundo;
+
     }
     public synchronized void setAtacado(){
         this.atacado=true;
     }
     public synchronized void setMuerto(){
         this.vivo=false;
+        this.interrupt();
+    }
+    public synchronized void setPeleando(){
+        this.peleando=true;
     }
 
+    public synchronized void setLibre(){
+        this.peleando=false;
+        notifyAll();
+    }
 
     public String getHumanoId(){
         return id;
     }
     public void run() {
-        System.out.println("Hola desde " + id + " en hilo " + Thread.currentThread().getName());
+        //System.out.println("Hola desde " + id + " en hilo " + Thread.currentThread().getName());
 
 
         while (vivo) {
-            int tunel = zonaComun();
+            int tunel = 0;
+            try {
+                tunel = zonaComun();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             try {
                 zonaExterior(tunel);
+                if(!vivo){
+                    break;
+                }
             } catch (InterruptedException e) {
-                System.out.println("El humano " + id + " ahora es un zombie .");
+                //System.out.println("El humano " + id + " ahora es un zombie .");
                 break;
             }
             try {
                 zonaComedor();
+
+                    mundo.comedor.sacar(this);
+
             } catch (InterruptedException e) {
-                System.out.println("El humano " + id + " ahora es un zombie .");
+                //System.out.println("El humano " + id + " ahora es un zombie .");
                 break;
             }
             if (atacado) {
-                System.out.println("El humano " + id +
-                        " ha sido marcado por un zombi y va a descansar");
+                //System.out.println("El humano " + id +
+                 //      " ha sido marcado por un zombi y va a descansar");
                 try {
                     Thread.sleep((int) (Math.random() * 3000) + 5000);
                 } catch (InterruptedException e) {
-                    System.out.println("El humano " + id + " ahora es un zombie .");
+                    //System.out.println("El humano " + id + " ahora es un zombie .");
                     break;
                 }
 
@@ -65,15 +90,17 @@ public class Humano extends Thread{
     }
 
 
-    public int zonaComun(){
+    public int zonaComun() throws InterruptedException {
         /*
 
             Modela el comportamiento del humano en la zona común
 
              */
 
-        System.out.println("El humano "+id+" ha accedido a la zona común");
-        mundo.getControlador().zonaComun(this);
+       //System.out.println("El humano "+id+" ha accedido a la zona común");
+
+            mundo.zonaComun.meterH(this);
+
         //Accede a la zona común
 
         try {
@@ -91,23 +118,19 @@ public class Humano extends Thread{
         int eleccion_tunel=(int)(Math.random()*4);
 
         //Espera a que haya 3 en ese tunel
-
         CyclicBarrier barrera=mundo.barrerasTuneles.get(eleccion_tunel);
-        System.out.println("El humano "+id+" esta esperando en el tunel "
-                +eleccion_tunel+" a que lleguen el resto de compañeros");
-        mundo.getControlador().zonaEsperaEntradaTunel(eleccion_tunel,this);
+       // System.out.println("El humano "+id+" esta esperando en el tunel "
+          //      +eleccion_tunel+" a que lleguen el resto de compañeros");
         try {
-            //Así hacemos que no se imprima tres veces lo mismo
-            int waiting= barrera.getNumberWaiting();
             barrera.await();
-            if(waiting==barrera.getParties()-1){
-                System.out.println("El grupo del tunel " +eleccion_tunel+ " está formado");
-            }
         } catch (InterruptedException | BrokenBarrierException e) {
             throw new RuntimeException(e);
     }
 
-    Lock cerrojo=mundo.tuneles.get(eleccion_tunel);
+        mundo.zonaComun.sacar(this);
+        mundo.zonasEntradaTunel.get(eleccion_tunel).meterH(this);
+
+    Semaphore cerrojo=mundo.tuneles.get(eleccion_tunel);
 
     //El grupo accede al tunel de 1 en 1
         try {
@@ -115,22 +138,27 @@ public class Humano extends Thread{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        cerrojo.lock();
-    try{
+        cerrojo.acquire();
+        try {
 
-        System.out.println("El humano "+id+" ha accedido al tunel");
-        mundo.getControlador().tunel(eleccion_tunel,this);
-        sleep(1000);
-        System.out.println("El humano "+id+" ha cruzado el tunel");
-        mundo.getControlador().zonaEsperaSalidaTunel(eleccion_tunel,this);
+            mundo.zonasEntradaTunel.get(eleccion_tunel).sacar(this);
 
 
-    } catch (InterruptedException e) {
-        throw new RuntimeException(e);
-    }
-    finally {
-        cerrojo.unlock();
-    }
+            System.out.println("El humano " + id + " ha accedido al tunel");
+
+            mundo.zonasTunel.get(eleccion_tunel).meterH(this);
+
+            sleep(1000);
+            System.out.println("El humano " + id + " ha cruzado el tunel");
+
+            mundo.zonasTunel.get(eleccion_tunel).sacar(this);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            cerrojo.release();
+        }
+
 
     //El humano ha salido del tunel y accede al exterior
     return eleccion_tunel;
@@ -142,44 +170,58 @@ public class Humano extends Thread{
     /*
     Modela el comportamiento del humano en la zona exterior
      */
-        mundo.zonasInseguras.get(zona).add(this);
-        mundo.getControlador().ZonaExterior(zona, this);
+            mundo.zonasInseguras.get(zona).meterH(this);
+
         Thread.sleep((int) (Math.random() * 3000) + 5000);
+        while(peleando) {
+            Thread.sleep(0);
+        }
 
-        if (atacado) {
-            //El humano ha sido atacado por un zombi
-            System.out.println("El humano " + id + " ha sido atacado por un zombi");
-        } else {
-            //El humano no ha sido atacado por un zombi
-            System.out.println("El humano " + id + " ha recogido 2 piezas de comida y vuelve");
-            Lock cerrojo = mundo.tuneles.get(zona);
-            if(cerrojo.tryLock()){
-                try{
-                System.out.println("El humano " + id + " ha accedido al tunel");
-                mundo.getControlador().tunel(zona, this);
-                Thread.sleep(1000);
-                System.out.println("El humano " + id + " ha regresado al refugio");
-                mundo.getRefugio().setComida(2);
-                System.out.println("El humano " + id + " ha dejado la comida y va a descansar");
-                mundo.getControlador().zonaDescanso(this);
-                Thread.sleep((int) (Math.random() * 2000) + 4000);
+        mundo.zonasInseguras.get(zona).sacar(this);
 
-                }finally{
-                    cerrojo.unlock();
-                }
-            }else{
-                System.out.println("El humano " + id + " encontró el túnel ocupado y espera su turno.");
-                Thread.sleep((int) (Math.random() * 1000) + 2000); // Espera antes de intentar de nuevo
-            }
+        //El humano no ha sido atacado por un zombi
+        System.out.println("El humano " + id + " ha recogido 2 piezas de comida y vuelve");
+
+        mundo.zonasSalidaTunel.get(zona).meterH(this);
+
+        Semaphore sem = mundo.tuneles.get(zona);
+        sem.acquire();
+        try {
+            mundo.zonasSalidaTunel.get(zona).sacar(this);
+
+            System.out.println("El humano " + id + " ha accedido al tunel");
+
+            mundo.zonasTunel.get(zona).meterH(this);
+
+            Thread.sleep(1000);
+
+            mundo.zonasTunel.get(zona).sacar(this);
+
+            System.out.println("El humano " + id + " ha regresado al refugio");
+            mundo.getComida().setComida(2);
+            System.out.println("El humano " + id + " ha dejado la comida y va a descansar");
+
+            mundo.Descanso.meterH(this);
+
+            Thread.sleep((int) (Math.random() * 2000) + 4000);
+
+            mundo.Descanso.sacar(this);
+        }catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            sem.release();
         }
 
     }
 
+
+
     public void zonaComedor() throws InterruptedException {
     /*Modela el comportamiento del humano en la zona comedor
      */
+        mundo.comedor.meterH(this);
         System.out.println("El humano " + id + " ha accedido a la zona comedor" );
-        mundo.getRefugio().comer(this);
+        mundo.getComida().comer(this);
 
     }
 

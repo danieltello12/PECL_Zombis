@@ -1,5 +1,6 @@
 package com.example.pecl_zombis;
 
+import Parte1.Mundo;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -9,8 +10,10 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import javax.swing.*;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -32,12 +35,19 @@ public class Inicio extends Application {
         inicio.setTranslateY(0);
         inicio.setOnAction(() -> {
             try {
-                root.getChildren().setAll(new PantallaPrincipal());
-            } catch (FileNotFoundException ex) {
-                throw new RuntimeException(ex);
+                Stage ventana = (Stage) root.getScene().getWindow();
+                ventana.close();
+                SwingUtilities.invokeLater(()-> {
+                    try {
+                        new Mundo().setVisible(true);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                });
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         });
-
         Cajas caja= new Cajas();
         caja.setTranslateX(370);
         caja.setTranslateY(600);
@@ -49,9 +59,12 @@ public class Inicio extends Application {
         stage.setScene(new Scene(root, 1280, 720));
         stage.setTitle("Simulación - Apocalipsis Zombi");
         stage.show();
+
+
     }
 
     public static void main(String[] args) {
         launch();
     }
+
 }
