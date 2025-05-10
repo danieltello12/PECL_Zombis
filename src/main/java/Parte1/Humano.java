@@ -6,6 +6,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
+import java.util.logging.Logger;
 
 public class Humano extends Thread{
     private Mundo mundo;
@@ -13,6 +14,7 @@ public class Humano extends Thread{
     Boolean atacado;
     Boolean vivo;
     Boolean peleando=false;
+
 
 
 
@@ -44,41 +46,44 @@ public class Humano extends Thread{
         return id;
     }
     public void run() {
-        //System.out.println("Hola desde " + id + " en hilo " + Thread.currentThread().getName());
+        Logs.getInstancia().logInfo("El humano " + id + " ha comenzado a ejecutarse");
 
 
         while (vivo) {
             int tunel = 0;
             try {
+                Logs.getInstancia().logInfo("El humano " + id + " ha entrado en la zona común");
                 tunel = zonaComun();
             } catch (InterruptedException e) {
+                Logs.getInstancia().logWarning("El humano " + id + " ha sido interrumpido en la zona común");
                 throw new RuntimeException(e);
             }
             try {
+                Logs.getInstancia().logInfo("El humano " + id + " ha dejado la zona común y va a la zona de entrada del túnel " + tunel);
                 zonaExterior(tunel);
                 if(!vivo){
                     break;
                 }
             } catch (InterruptedException e) {
-                //System.out.println("El humano " + id + " ahora es un zombie .");
+                Logs.getInstancia().logWarning("El humano " + id + " ha sido interrumpido en la zona de entrada del túnel");
                 break;
             }
             try {
+                Logs.getInstancia().logInfo("El humano " + id + "va a la zona comedor");
                 zonaComedor();
-
-                    mundo.comedor.sacar(this);
+                mundo.comedor.sacar(this);
 
             } catch (InterruptedException e) {
+                Logs.getInstancia().logWarning("El humano " + id + " ha sido interrumpido en la zona comedor");
                 //System.out.println("El humano " + id + " ahora es un zombie .");
                 break;
             }
             if (atacado) {
-                //System.out.println("El humano " + id +
-                 //      " ha sido marcado por un zombi y va a descansar");
+                Logs.getInstancia().logWarning("El humano " + id + " ha sido marcado por un zombi y va a descansar");
                 try {
                     Thread.sleep((int) (Math.random() * 3000) + 5000);
                 } catch (InterruptedException e) {
-                    //System.out.println("El humano " + id + " ahora es un zombie .");
+                    Logs.getInstancia().logWarning("El humano " + id + " ha sido interrumpido mientras descansaba");
                     break;
                 }
 
@@ -167,9 +172,7 @@ public class Humano extends Thread{
 
     public void zonaExterior(int zona) throws InterruptedException {
 
-    /*
-    Modela el comportamiento del humano en la zona exterior
-     */
+
             mundo.zonasInseguras.get(zona).meterH(this);
 
         Thread.sleep((int) (Math.random() * 3000) + 5000);

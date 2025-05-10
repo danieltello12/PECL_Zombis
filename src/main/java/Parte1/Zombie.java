@@ -18,19 +18,20 @@ public class Zombie extends Thread{
     public void run(){
         while(true){
             int eleccion_zona=(int)(Math.random()*4);
-            //System.out.println("El zombi "+id+" ha elegido la zona "+eleccion_zona+ " insegura");
+            Logs.getInstancia().logInfo("El zombi " + id + " ha entrado en la zona insegura " + eleccion_zona);
             mundo.getZonasInsegurasZ(eleccion_zona).meterH(this);
             List<Humano> lista_humanos=mundo.getContador_humanos(eleccion_zona);
             if (!lista_humanos.isEmpty()){
                 Humano presa=lista_humanos.get((int)(Math.random()*lista_humanos.size()));
                 if(mundo.atacar_Humano(this, presa,eleccion_zona)){
                     contadorMuertes++;
-                    //System.out.println("El zombi "+id+" ha matado a "+contadorMuertes+" humano(s)");
+                    Logs.getInstancia().logInfo("El zombi " + id + " ha atacado al humano " + presa.getHumanoId() + " en la zona " + eleccion_zona+ "número de muertes: "+contadorMuertes);
 
                 }
                 try {
                     sleep((int)(Math.random()*1000)+2000);
                 } catch (InterruptedException e) {
+                    Logs.getInstancia().logWarning("El zombi " + id + " ha sido interrumpido en la zona insegura " + eleccion_zona);
                     throw new RuntimeException(e);
                 }
             }else{
@@ -38,6 +39,7 @@ public class Zombie extends Thread{
                 try {
                     sleep((int)(Math.random()*1000)+2000);
                 } catch (InterruptedException e) {
+                    Logs.getInstancia().logWarning("El zombi " + id + " ha sido interrumpido en la zona insegura " + eleccion_zona);
                     throw new RuntimeException(e);
                 }
             }

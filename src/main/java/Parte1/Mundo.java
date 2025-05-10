@@ -199,6 +199,7 @@ public class Mundo extends javax.swing.JFrame{
                 return false;
             } else{
                 System.out.println("El zombi " +zombie.getZombieId()+" ha logrado matar al humano  " +presa.getHumanoId());
+                Logs.getInstancia().logInfo("El humano "+presa.getHumanoId()+" ha muerto");
 
                 String id= String.valueOf(presa.getHumanoId());
                 String nuevoid= id.replace("H", "Z");

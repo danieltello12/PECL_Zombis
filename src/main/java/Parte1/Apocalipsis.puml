@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package Parte1{
+class Humano extends Thread{
+    - Mundo mundo
+    - String id
+    - Boolean atacado
+    - Boolean vivo
+    +Humano(String id, Mundo mundo)
+    +run():void
+    +setAtacado():void
+    +setMuerto():void
+    +getHumanoId():String
+    +zonaComun():int
+    +zonaExterior(int zona):void
+    +zonaComedor():void
+}
+
+
+class Zombie extends Thread{
+    - Mundo mundo
+    - String id
+    - int contadorMuertes
+    +Zombie(String id, Mundo mundo)
+    +getZombieId():String
+    +run():void
+}
+
+class Mundo{
+    ~HelloController controlador
+    -Refugio refugio
+    -List<List<Humano>> zonasInseguras
+    ~ArrayList<Lock> tuneles
+    ~ArrayList<CyclicBarrier> barreras
+    +Mundo(HelloController controlador)
+    +getRefugio():Refugio
+    +atacar_Humano(Zombie zombie,Humano presa):Boolean
+
+
+}
+
+
+
+
+@enduml
