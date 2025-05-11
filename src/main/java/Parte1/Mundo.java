@@ -217,4 +217,19 @@ public class Mundo extends javax.swing.JFrame{
         }
         return false;
     }
+    public int getNumeroHumanosRefugio() {
+        int totalHumanos = 0;
+        totalHumanos += zonaComun.getLista().size();
+        totalHumanos += comedor.getLista().size();
+        totalHumanos += Descanso.getLista().size();
+        return totalHumanos;
+    }
+
+    public int getNumeroHumanosTunel(int indice) {
+        if (indice >= 0 && indice < zonasTunel.size()) {
+            return zonasTunel.get(indice).getLista().size();
+        } else{
+            return -1;
+        }
+    }
 }
