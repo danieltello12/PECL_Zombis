@@ -47,6 +47,7 @@ class Logs{
     + «synchronized» logInfo(String mensaje): void
     + «synchronized» logWarning(String mensaje): void
     +getLogger():Logger
+    }
 
 
 }
