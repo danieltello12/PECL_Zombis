@@ -40,6 +40,64 @@ class Mundo{
 
 }
 
+class Logs{
+    -Logs instancia
+    -Logger logger
+    + «synchronized» getInstancia():Logs
+    + «synchronized» logInfo(String mensaje): void
+    + «synchronized» logWarning(String mensaje): void
+    +getLogger():Logger
+
+
+}
+package com_example_pecl_zombis{
+class Boton extends StackPane{
+    - Font fuente
+    - Text text
+    +Boton(String name, int width))
+    +setOnAction(Runnable action): void
+    }
+class Cajas extends Pane{
+    - VBox box
+    +Cajas()
+    +setOnAction(Runnable action): void
+    +addItems(Boton... items):void
+    +addItem(Boton item):void
+    }
+class HelloController{
+    -Label welcomeText
+    +onHelloButtonClick():void
+    }
+class Inicio extends Application{
+    +start(Stage stage):void
+    +main(String[] args):void
+    }
+class ListaZonasH{
+    -ArrayList<Humano> lista
+    -JTextArea tf
+    +ListaZonasH(JTextArea tf)
+    + «synchronized» meterH(Humano t):void
+    + «synchronized» sacar(Humano t):void
+    + «synchronized» getLista():ArrayList<Humano>
+    + imprimir():void
+    }
+class ListaZonasZ{
+    -ArrayList<Zombie> lista
+    -JTextArea tf
+    +ListaZonasZ(JTextArea tf)
+    + «synchronized» meterH(Zombie t):void
+    + «synchronized» sacar(Zombie t):void
+    + «synchronized» getLista():ArrayList<Zombie>
+    + imprimir():void
+    }
+
+class PantallaPrincipal{
+    +PantallaPrincipal()
+}
+
+
+
+
 
 
 
