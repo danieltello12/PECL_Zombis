@@ -17,15 +17,16 @@ public class Servidor {
         Mundo mundo;
 
         try{
-            mundo= new Mundo();
             servidor= new ServerSocket(5000);
+            conexion= servidor.accept();
+
+            entrada= new DataInputStream(conexion.getInputStream());
+            salida= new DataOutputStream(conexion.getOutputStream());
+
+            mundo= new Mundo();
             System.out.println("Servidor Arrancado...");
 
             while(true){
-                conexion= servidor.accept();
-
-                entrada= new DataInputStream(conexion.getInputStream());
-                salida= new DataOutputStream(conexion.getOutputStream());
 
                 String mensaje= entrada.readUTF();
                 switch(mensaje){
