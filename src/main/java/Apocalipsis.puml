@@ -49,8 +49,42 @@ class Logs{
     +getLogger():Logger
     }
 
-
+class Comida{
+ -JTextArea tf
+ -int comida=0
+ +Comida(JTextArea tf)
+ +getComida():int
+ +setComida(int comida):void
+ + «synchronized» comer(Humano humano):void
+ }
 }
+package Parte2{
+class Cliente{
+-Boolean pausado=false
++main(String[] args):void
++actualizar_humanos_zonas_inseg(DataInputStream entrada, DataOutputStream salida,Interfaz in): void
++actualizar_humanos_refugio(DataInputStream entrada, DataOutputStream salida, Interfaz in): void
++actualizar_zombies_zonas_inseg(DataInputStream entrada, DataOutputStream salida, Interfaz in): void
++actualizar_humanos_tuneles(DataInputStream entrada, DataOutputStream salida, Interfaz in):void
++actualizar_ranking_zombis(DataInputStream entrada, DataOutputStream salida, Interfaz in): void
+}
+
+class Interfaz{
+- JLabel lblHumanosRefugio
+-JLabel[] lblHumanosTuneles
+-JLabel[] lblZombisZonas
+-JLabel[] lblHumanosZonas
+-JTextArea txtTopZombis
+-JButton btnPausarReanudar
+
++ Interfaz(int x, int y): void
+}
+class Servidor{
++main(args: String[]): void
+}
+}
+
+
 package com_example_pecl_zombis{
 class Boton extends StackPane{
     - Font fuente
