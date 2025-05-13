@@ -28,12 +28,6 @@ public class Zombie extends Thread{
                     Logs.getInstancia().logInfo("El zombi " + id + " ha atacado al humano " + presa.getHumanoId() + " en la zona " + eleccion_zona+ "número de muertes: "+contadorMuertes);
 
                 }
-                try {
-                    sleep((int)(Math.random()*1000)+2000);
-                } catch (InterruptedException e) {
-                    Logs.getInstancia().logWarning("El zombi " + id + " ha sido interrumpido en la zona insegura " + eleccion_zona);
-                    throw new RuntimeException(e);
-                }
             }else{
                 //System.out.println("No hay humanos en la zona "+ eleccion_zona+ " insegura");
                 try {
