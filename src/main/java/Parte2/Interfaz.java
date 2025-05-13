@@ -74,8 +74,18 @@ public class Interfaz extends JFrame {
         btnPausarReanudar = new JButton("⏸️ Pausar Simulación");
         btnPausarReanudar.setFont(new Font("Arial", Font.BOLD, 16));
         btnPausarReanudar.setBackground(Color.LIGHT_GRAY);
+        btnPausarReanudar.addActionListener(e -> {
+            Cliente.pausado = !Cliente.pausado;
+            if (Cliente.pausado) {
+                btnPausarReanudar.setText("▶️ Reanudar Simulación");
+            } else {
+                btnPausarReanudar.setText("⏸️ Pausar Simulación");
+            }
+        });
         panelInferior.add(btnPausarReanudar, BorderLayout.SOUTH);
 
         panelPrincipal.add(panelInferior, BorderLayout.SOUTH);
+
+
     }
 }

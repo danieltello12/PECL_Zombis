@@ -190,8 +190,9 @@ public class Mundo extends javax.swing.JFrame{
 
     public boolean atacar_Humano(Zombie zombie,Humano presa,int zona)  {
         presa.setPeleando();
+        presa.setAtacado();
         try {
-            Thread.sleep((int) (Math.random() * 1000));
+            Thread.sleep((int) (Math.random() * 1000)+500);
             int ataqueExitoso=(int)(Math.random()*100);
             if (ataqueExitoso<66){
                 System.out.println("El zombi "+zombie.getZombieId()+ " no ha podido matar al humano "+presa.getHumanoId());
@@ -206,8 +207,8 @@ public class Mundo extends javax.swing.JFrame{
                 Zombie nuevoZombi= new Zombie(nuevoid,this);
                 zonasInseguras.get(zona).sacar(presa);
                 presa.setMuerto();
-                presa.interrupt();
                 nuevoZombi.start();
+                return true;
 
             }
         } catch(Exception e){
@@ -215,7 +216,7 @@ public class Mundo extends javax.swing.JFrame{
             System.out.println(e);
             return false;
         }
-        return false;
+
     }
     public int getNumeroHumanosRefugio() {
         int totalHumanos = 0;
@@ -231,5 +232,28 @@ public class Mundo extends javax.swing.JFrame{
         } else{
             return -1;
         }
+    }
+
+
+    public List<Zombie> getRankingZombis() {
+        List<Zombie> ranking = new ArrayList<>();
+
+        for (ListaZonasZ zona : zonasInsegurasZ) {
+            ranking.addAll(zona.getLista());
+        }
+        List<Zombie> top3 = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            Zombie topZombie = null;
+            for (Zombie z : ranking) {
+                if(!top3.contains(z)&&(topZombie==null||z.getContadorMuertes()>topZombie.getContadorMuertes())){
+                    topZombie=z;
+                }
+            }
+            if (topZombie!= null) {
+                top3.add(topZombie);
+            }
+
+        }
+        return top3;
     }
 }

@@ -2,6 +2,7 @@ package Parte1;
 
 import com.example.pecl_zombis.Inicio;
 
+import java.sql.SQLOutput;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
@@ -28,6 +29,10 @@ public class Humano extends Thread{
     }
     public synchronized void setAtacado(){
         this.atacado=true;
+
+    }
+    public synchronized void setNoAtacado(){
+        this.atacado=false;
     }
     public synchronized void setMuerto(){
         this.vivo=false;
@@ -39,7 +44,6 @@ public class Humano extends Thread{
 
     public synchronized void setLibre(){
         this.peleando=false;
-        notifyAll();
     }
 
     public String getHumanoId(){
@@ -138,11 +142,6 @@ public class Humano extends Thread{
     Semaphore cerrojo=mundo.tuneles.get(eleccion_tunel);
 
     //El grupo accede al tunel de 1 en 1
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         cerrojo.acquire();
         try {
 
@@ -175,15 +174,19 @@ public class Humano extends Thread{
 
             mundo.zonasInseguras.get(zona).meterH(this);
 
-        Thread.sleep((int) (Math.random() * 3000) + 5000);
+        Thread.sleep((int) (Math.random() * 2000) + 3000);
         while(peleando) {
             Thread.sleep(0);
         }
 
         mundo.zonasInseguras.get(zona).sacar(this);
 
-        //El humano no ha sido atacado por un zombi
-        System.out.println("El humano " + id + " ha recogido 2 piezas de comida y vuelve");
+        if(atacado){
+            System.out.println("El humano " + id + " ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida");
+        }else{
+            System.out.println("El humano " + id + " ha recogido 2 piezas de comida");
+            mundo.getComida().setComida(2);
+        }
 
         mundo.zonasSalidaTunel.get(zona).meterH(this);
 
@@ -201,7 +204,9 @@ public class Humano extends Thread{
             mundo.zonasTunel.get(zona).sacar(this);
 
             System.out.println("El humano " + id + " ha regresado al refugio");
-            mundo.getComida().setComida(2);
+
+            setNoAtacado(); //Para cuando vuelva a salir al exterior
+
             System.out.println("El humano " + id + " ha dejado la comida y va a descansar");
 
             mundo.Descanso.meterH(this);

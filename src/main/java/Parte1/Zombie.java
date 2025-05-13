@@ -49,4 +49,8 @@ public class Zombie extends Thread{
 
     }
 
+    public int getContadorMuertes() {
+        return contadorMuertes;
+    }
+
 }

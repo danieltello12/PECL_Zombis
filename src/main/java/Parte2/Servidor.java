@@ -18,13 +18,14 @@ public class Servidor {
 
         try{
             servidor= new ServerSocket(5000);
+            System.out.println("Servidor Arrancado...");
             conexion= servidor.accept();
 
             entrada= new DataInputStream(conexion.getInputStream());
             salida= new DataOutputStream(conexion.getOutputStream());
 
             mundo= new Mundo();
-            System.out.println("Servidor Arrancado...");
+
 
             while(true){
 
@@ -46,6 +47,11 @@ public class Servidor {
                     case "NUM_HUMANOS_TUNEL":
                         for (int i = 0; i < 4; i++) {
                             salida.writeInt(mundo.getNumeroHumanosTunel(i));
+                        }
+                        break;
+                    case "TOP_ZOMBIS_LETALES":
+                        for (int i = 0; i < 3; i++) {
+                            salida.writeUTF(mundo.getRankingZombis().get(i).toString()); // Envía el ranking como texto
                         }
                         break;
                 }

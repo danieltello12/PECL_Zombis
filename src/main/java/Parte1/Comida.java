@@ -26,7 +26,7 @@ public class Comida {
             if (comida > 0) {
                 comida--;
                 tf.setText(this.comida+"");
-                Thread.sleep((int) (Math.random() * 3000) + 5000);
+                Thread.sleep((int) (Math.random() * 2000) + 3000);
                 System.out.println("El humano " + humano.getHumanoId() + " ha comido");
             } else {
                 System.out.println("El humano " + humano.getHumanoId() +
