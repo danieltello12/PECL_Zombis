@@ -2,6 +2,7 @@ package Parte2;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 
 public class Interfaz extends JFrame {
     protected JLabel lblHumanosRefugio;
@@ -9,7 +10,10 @@ public class Interfaz extends JFrame {
     protected JLabel[] lblZombisZonas;
     protected JLabel[] lblHumanosZonas;
     protected JTextArea txtTopZombis;
-    protected JButton btnPausarReanudar;
+    protected JButton btnPausar;
+    protected JPanel panelInferior;
+    protected JButton btnReanudar;
+    protected JPanel panelPrincipal;
 
     public  Interfaz(int x, int y) {
         setTitle("Monitor Apocalipsis Zombi");
@@ -19,7 +23,7 @@ public class Interfaz extends JFrame {
         setLayout(new BorderLayout(10, 10));
 
         // Panel principal
-        JPanel panelPrincipal = new JPanel(new BorderLayout(10, 10));
+        panelPrincipal = new JPanel(new BorderLayout(10, 10));
         panelPrincipal.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         add(panelPrincipal);
 
@@ -59,7 +63,7 @@ public class Interfaz extends JFrame {
         panelPrincipal.add(panelCentral, BorderLayout.CENTER);
 
         // Panel inferior con top zombis y botón
-        JPanel panelInferior = new JPanel(new BorderLayout(10, 10));
+        panelInferior = new JPanel(new BorderLayout(10, 10));
 
         // Top zombis
         JPanel panelRanking = new JPanel(new BorderLayout());
@@ -71,18 +75,46 @@ public class Interfaz extends JFrame {
         panelInferior.add(panelRanking, BorderLayout.CENTER);
 
         // Botón pausa/reanuda
-        btnPausarReanudar = new JButton("⏸️ Pausar Simulación");
-        btnPausarReanudar.setFont(new Font("Arial", Font.BOLD, 16));
-        btnPausarReanudar.setBackground(Color.LIGHT_GRAY);
-        btnPausarReanudar.addActionListener(e -> {
-            Cliente.pausado = !Cliente.pausado;
-            if (Cliente.pausado) {
-                btnPausarReanudar.setText("▶️ Reanudar Simulación");
-            } else {
-                btnPausarReanudar.setText("⏸️ Pausar Simulación");
+
+        btnPausar = new JButton("Pausar Simulación");
+        btnPausar.setFont(new Font("Arial", Font.BOLD, 16));
+        btnPausar.setBackground(Color.LIGHT_GRAY);
+        btnPausar.addActionListener(e -> {
+            ;
+            if (Cliente.pausado==0) {
+                try {
+                    Cliente.pausado=1;
+                    Cliente.salida.writeUTF("PAUSAR");
+
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
             }
         });
-        panelInferior.add(btnPausarReanudar, BorderLayout.SOUTH);
+
+
+        panelInferior.add(btnPausar, BorderLayout.SOUTH);
+
+        btnReanudar = new JButton("Reanudar Simulación");
+        btnReanudar.setFont(new Font("Arial", Font.BOLD, 16));
+        btnReanudar.setBackground(Color.LIGHT_GRAY);
+        btnReanudar.addActionListener(e -> {
+            if (Cliente.pausado==1) {
+                try {
+                    Cliente.pausado=0;
+                    Cliente.salida.writeUTF("REANUDAR");
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
+            }
+        });
+        JPanel botones = new JPanel(new GridLayout(2, 1, 5, 5));
+        botones.add(btnPausar);
+        botones.add(btnReanudar);;
+
+        panelInferior.add(botones, BorderLayout.SOUTH);
 
         panelPrincipal.add(panelInferior, BorderLayout.SOUTH);
 

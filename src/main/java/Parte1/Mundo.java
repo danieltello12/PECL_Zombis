@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+
+import static java.lang.Thread.sleep;
 
 
 public class Mundo extends javax.swing.JFrame{
@@ -42,8 +42,11 @@ public class Mundo extends javax.swing.JFrame{
     protected List<ListaZonasH> zonasInseguras = new ArrayList<>();
     private List<ListaZonasZ> zonasInsegurasZ= new ArrayList<>();
     ArrayList<Semaphore> tuneles = new ArrayList<>();
+    ArrayList<Humano> humanos= new ArrayList<>();
+    ArrayList<Zombie> zombis= new ArrayList<>();
     ArrayList<CyclicBarrier>  barrerasTuneles= new ArrayList<>();
     private Comida comida;
+    static volatile boolean pausado=false;
 
     public Mundo() throws InterruptedException {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -66,12 +69,21 @@ public class Mundo extends javax.swing.JFrame{
         }
         this.setVisible(true);
         for(int i=1;i<=10;i++){
+            while (pausado) {
+                try {
+                    sleep(100);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
             String id=String.format("H%04d", i);
-            Thread.sleep((int) (Math.random() * 500) + 2000);
+            sleep((int) (Math.random() * 500) + 2000);
             Humano humano = new Humano(id, this);
+            humanos.add(humano);
             humano.start();
         }
         Zombie paciente0= new Zombie("Z0000",this);
+        zombis.add(paciente0);
         paciente0.start();
 
     }
@@ -185,14 +197,17 @@ public class Mundo extends javax.swing.JFrame{
         scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         return scroll;
     }
-
-
-
+    public static boolean isPausado(){
+        return pausado;
+    }
+    public void setPausado(boolean pausado) {
+        Mundo.pausado = pausado;
+    }
     public boolean atacar_Humano(Zombie zombie,Humano presa,int zona)  {
         presa.setPeleando();
         presa.setAtacado();
         try {
-            Thread.sleep((int) (Math.random() * 1000)+500);
+            sleep((int) (Math.random() * 1000)+500);
             int ataqueExitoso=(int)(Math.random()*100);
             if (ataqueExitoso<66){
                 System.out.println("El zombi "+zombie.getZombieId()+ " no ha podido matar al humano "+presa.getHumanoId());
@@ -206,7 +221,9 @@ public class Mundo extends javax.swing.JFrame{
                 String nuevoid= id.replace("H", "Z");
                 Zombie nuevoZombi= new Zombie(nuevoid,this);
                 zonasInseguras.get(zona).sacar(presa);
+                humanos.remove(presa);
                 presa.setMuerto();
+                zombis.add(nuevoZombi);
                 nuevoZombi.start();
                 return true;
 

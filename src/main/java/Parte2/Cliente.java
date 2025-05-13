@@ -1,5 +1,7 @@
 package Parte2;
 
+import javax.swing.*;
+import java.awt.*;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -9,20 +11,24 @@ import java.net.Socket;
 import static java.lang.Thread.sleep;
 
 public class Cliente {
-    static volatile boolean pausado = false;
+    static int pausado = 0;
+    static DataInputStream entrada;
+    static DataOutputStream salida;
+
     public static void main(String[] args) {
 
         Socket cliente;
-        DataInputStream entrada;
-        DataOutputStream salida;
+
+
         try{
             Interfaz i= new Interfaz(500,600);
             cliente= new Socket(Inet4Address.getLocalHost(), 5000);
             entrada= new DataInputStream(cliente.getInputStream());
             salida= new DataOutputStream(cliente.getOutputStream());
+
             Thread actualizador = new Thread(() -> {
                 while (true) {
-                    if(!pausado)
+                    if(pausado==0)
                         try {
                             actualizar_humanos_ref(entrada, salida, i);
                             actualizar_humanos_zonas_inseg(entrada, salida, i);

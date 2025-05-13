@@ -1,10 +1,13 @@
 package com.example.pecl_zombis;
 
 import Parte1.Humano;
+import Parte1.Mundo;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
+
+import static java.lang.Thread.sleep;
 
 public class ListaZonasH {
     ArrayList<Humano> lista;
@@ -23,6 +26,16 @@ public class ListaZonasH {
         imprimir();
     }
 
+    public void pausar_si_pausado(){
+        while(Mundo.isPausado()){
+            try {
+                sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
     public synchronized void sacar(Humano t)
     {
 
@@ -43,6 +56,7 @@ public class ListaZonasH {
         {
             contenido.append(lista.get(i).getHumanoId()).append(" ");
         }
+        pausar_si_pausado();
         tf.setText("");
         tf.setText(contenido.toString());
 

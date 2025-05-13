@@ -50,9 +50,21 @@ public class Servidor {
                         }
                         break;
                     case "TOP_ZOMBIS_LETALES":
-                        for (int i = 0; i < 3; i++) {
-                            salida.writeUTF(mundo.getRankingZombis().get(i).toString()); // Envía el ranking como texto
+                        if (mundo.getRankingZombis().size()>=3) {
+                            for (int i = 0; i < 3; i++) {
+                                salida.writeUTF(mundo.getRankingZombis().get(i).toString()); // Envía el ranking como texto
+                            }
+                        } else {
+                            salida.writeInt(mundo.getRankingZombis().size());
                         }
+                        break;
+
+
+                    case "PAUSAR":
+                        mundo.setPausado(true);
+                        break;
+                    case "REANUDAR":
+                        mundo.setPausado(false);
                         break;
                 }
 
