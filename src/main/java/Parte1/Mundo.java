@@ -44,8 +44,8 @@ public class Mundo extends javax.swing.JFrame {
     protected List<ListaZonasH> zonasInseguras = new ArrayList<>();
     private List<ListaZonasZ> zonasInsegurasZ= new ArrayList<>();
     ArrayList<Semaphore> tuneles = new ArrayList<>();
-    ArrayList<Humano> humanos= new ArrayList<>();
-    ArrayList<Zombie> zombis= new ArrayList<>();
+    public ArrayList<Humano> humanos= new ArrayList<>();
+    public ArrayList<Zombie> zombis= new ArrayList<>();
     ArrayList<CyclicBarrier>  barrerasTuneles= new ArrayList<>();
     private Comida comida;
     static volatile boolean pausado=false;
@@ -70,31 +70,10 @@ public class Mundo extends javax.swing.JFrame {
             barrerasTuneles.add(new CyclicBarrier(3));
         }
         this.setVisible(true);
-        for(int i=1;i<=10;i++){
-            while (pausado) {
-                try {
-                    sleep(100);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-            }
-            String id=String.format("H%04d", i);
-            sleep((int) (Math.random() * 500) + 2000);
-            Humano humano = new Humano(id, this);
-            humanos.add(humano);
-            humano.start();
-        }
-        Zombie paciente0= new Zombie("Z0000",this);
-        zombis.add(paciente0);
-        paciente0.start();
 
     }
     public ListaZonasZ getZonasInsegurasZ(int zona) {
         return zonasInsegurasZ.get(zona);
-    }
-    public static void main(String[] args) throws InterruptedException{
-        HelloController controlador= new HelloController();
-        Mundo mundo = new Mundo();
     }
     public Comida getComida() {
         return comida;

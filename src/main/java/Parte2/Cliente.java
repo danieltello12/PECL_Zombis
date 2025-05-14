@@ -15,7 +15,7 @@ public class Cliente {
             servidor = (ServidorInterfaz) registry.lookup("ServidorZombis");
 
 
-            Interfaz interfaz = new Interfaz(700, 600);
+            Interfaz interfaz = new Interfaz(700, 600,servidor);
 
             // Thread to update the interface periodically
             Thread actualizador = new Thread(() -> {

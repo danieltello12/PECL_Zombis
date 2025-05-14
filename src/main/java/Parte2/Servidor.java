@@ -55,6 +55,7 @@ public class Servidor extends UnicastRemoteObject implements ServidorInterfaz {
     @Override
     public void pausar() throws RemoteException {
         mundo.setPausado(true);
+
     }
 
     @Override

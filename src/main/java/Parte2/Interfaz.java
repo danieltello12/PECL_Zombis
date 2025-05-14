@@ -2,6 +2,7 @@ package Parte2;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 
 public class Interfaz extends JFrame {
     protected JLabel lblHumanosRefugio;
@@ -12,7 +13,7 @@ public class Interfaz extends JFrame {
     protected JButton btnPausar;
     protected JButton btnReanudar;
 
-    public Interfaz(int width, int height) {
+    public Interfaz(int width, int height,ServidorInterfaz servidor) {
         setTitle("Monitor Apocalipsis Zombi");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(width, height);
@@ -65,13 +66,71 @@ public class Interfaz extends JFrame {
         panelInferior.add(panelRanking, BorderLayout.CENTER);
 
         // Botones
-        JPanel panelBotones = new JPanel(new GridLayout(1, 2, 10, 10));
-        btnPausar = new JButton("Pausar Simulación");
-        btnReanudar = new JButton("Reanudar Simulación");
-        panelBotones.add(btnPausar);
-        panelBotones.add(btnReanudar);
-        panelInferior.add(panelBotones, BorderLayout.SOUTH);
+        // Botón pausa/reanuda
 
+        btnPausar = new JButton("Pausar Simulación");
+        btnPausar.setFont(new Font("Arial", Font.BOLD, 16));
+        btnPausar.setBackground(Color.LIGHT_GRAY);
+        btnPausar.addActionListener(e -> {
+            ;
+            if (Cliente.pausado==0) {
+                try {
+                    Cliente.pausado=1;
+                    servidor.pausar();
+                    int numeroHumanosRefugio = servidor.getNumeroHumanosRefugio();
+                    this.lblHumanosRefugio.setText("Humanos en refugio: " + numeroHumanosRefugio);
+
+                    int[] humanosZonas = servidor.getNumeroHumanosZonasInseguras();
+                    for (int i = 0; i < 4; i++) {
+                        this.lblHumanosZonas[i].setText("Humanos en zona insegura " + (i + 1) + ": " + humanosZonas[i]);
+                    }
+
+                    int[] zombisZonas = servidor.getNumeroZombisZonasInseguras();
+                    for (int i = 0; i < 4; i++) {
+                        this.lblZombisZonas[i].setText("Zombis en zona insegura " + (i + 1) + ": " + zombisZonas[i]);
+                    }
+
+                    int[] humanosTuneles = servidor.getNumeroHumanosTuneles();
+                    for (int i = 0; i < 4; i++) {
+                        this.lblHumanosTuneles[i].setText("Humanos en túnel " + (i + 1) + ": " + humanosTuneles[i]);
+                    }
+
+                    String[] rankingZombis = servidor.getRankingZombisLetales();
+                    StringBuilder ranking = new StringBuilder();
+                    for (String zombi : rankingZombis) {
+                        ranking.append(zombi).append("\n");
+                    }
+                    this.txtTopZombis.setText(ranking.toString());
+
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
+            }
+        });
+
+
+        panelInferior.add(btnPausar, BorderLayout.SOUTH);
+
+        btnReanudar = new JButton("Reanudar Simulación");
+        btnReanudar.setFont(new Font("Arial", Font.BOLD, 16));
+        btnReanudar.setBackground(Color.LIGHT_GRAY);
+        btnReanudar.addActionListener(e -> {
+            if (Cliente.pausado==1) {
+                try {
+                    Cliente.pausado=0;
+                    servidor.reanudar();
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
+            }
+        });
+        JPanel botones = new JPanel(new GridLayout(2, 1, 5, 5));
+        botones.add(btnPausar);
+        botones.add(btnReanudar);;
+
+        panelInferior.add(botones, BorderLayout.SOUTH);
         add(panelInferior, BorderLayout.SOUTH);
     }
 }

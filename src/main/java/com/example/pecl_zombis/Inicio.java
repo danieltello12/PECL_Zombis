@@ -1,6 +1,9 @@
 package com.example.pecl_zombis;
 
+import Parte1.Humano;
 import Parte1.Mundo;
+import Parte1.Zombie;
+import Parte2.Cliente;
 import Parte2.Servidor;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -16,6 +19,8 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
+import static java.lang.Thread.sleep;
+
 public class Inicio extends Application {
     @Override
     public void start(Stage stage) throws IOException {
@@ -28,18 +33,6 @@ public class Inicio extends Application {
         fondo.setFitHeight(720);
 
 
-        new Thread(() -> {
-            try {
-                Mundo mundo = new Mundo();
-                Servidor servidor = new Servidor(mundo);
-                Registry registry = LocateRegistry.createRegistry(5099);
-                registry.rebind("ServidorZombis", servidor);
-                System.out.println("Servidor RMI iniciado...");
-            } catch (RemoteException | InterruptedException e) {
-                e.printStackTrace();
-            }
-        }).start();
-
 
         Boton inicio = new Boton("INICIO", 500);
         inicio.setTranslateX(170);
@@ -49,11 +42,42 @@ public class Inicio extends Application {
                 Stage ventana = (Stage) root.getScene().getWindow();
                 ventana.close();
                 SwingUtilities.invokeLater(() -> {
-                    try {
-                        new Mundo().setVisible(true);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
+                    new Thread(() -> {
+                       try {
+
+                           Mundo mundo = new Mundo();
+                           Servidor servidor = new Servidor(mundo);
+                           Registry registry = LocateRegistry.createRegistry(5099);
+                           registry.rebind("ServidorZombis", servidor);
+                           System.out.println("Servidor RMI iniciado...");
+                           SwingUtilities.invokeLater(() -> {
+                               try {
+                                   Cliente.main(new String[0]);
+                               } catch (Exception e) {
+                                   e.printStackTrace();
+                               }
+                           });
+                           for(int i=1;i<=10;i++){
+                               while (Mundo.isPausado()) {
+                                   try {
+                                       sleep(100);
+                                   } catch (InterruptedException e) {
+                                       throw new RuntimeException(e);
+                                   }
+                               }
+                               String id=String.format("H%04d", i);
+                               sleep((int) (Math.random() * 500) + 2000);
+                               Humano humano = new Humano(id, mundo);
+                               mundo.humanos.add(humano);
+                               humano.start();
+                           }
+                           Zombie paciente0= new Zombie("Z0000",mundo);
+                           mundo.zombis.add(paciente0);
+                           paciente0.start();
+                       } catch (RemoteException | InterruptedException e) {
+                           e.printStackTrace();
+                       }
+                   }).start();
                 });
             } catch (Exception e) {
                 e.printStackTrace();
