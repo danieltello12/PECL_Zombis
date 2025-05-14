@@ -6,13 +6,13 @@ import java.rmi.registry.Registry;
 
 public class Cliente {
     public static int pausado = 0;
-    public static ServidorInterface servidor;
+    public static ServidorInterfaz servidor;
 
     public static void main(String[] args) {
         try {
 
             Registry registry = LocateRegistry.getRegistry("localhost", 5099);
-            servidor = (ServidorInterface) registry.lookup("ServidorZombis");
+            servidor = (ServidorInterfaz) registry.lookup("ServidorZombis");
 
 
             Interfaz interfaz = new Interfaz(700, 600);

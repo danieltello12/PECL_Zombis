@@ -7,7 +7,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-public class Servidor extends UnicastRemoteObject implements ServidorInterface {
+public class Servidor extends UnicastRemoteObject implements ServidorInterfaz {
     private final Mundo mundo;
 
     public Servidor(Mundo mundo) throws RemoteException {
