@@ -1,90 +1,64 @@
 package Parte2;
 
 import javax.swing.*;
-import java.awt.*;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.Inet4Address;
-import java.net.Socket;
-
-import static java.lang.Thread.sleep;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 
 public class Cliente {
-    static int pausado = 0;
-    static DataInputStream entrada;
-    static DataOutputStream salida;
+    public static int pausado = 0;
+    public static ServidorInterface servidor;
 
     public static void main(String[] args) {
+        try {
 
-        Socket cliente;
+            Registry registry = LocateRegistry.getRegistry("localhost", 5099);
+            servidor = (ServidorInterface) registry.lookup("ServidorZombis");
 
 
-        try{
-            Interfaz i= new Interfaz(500,600);
-            cliente= new Socket(Inet4Address.getLocalHost(), 5000);
-            entrada= new DataInputStream(cliente.getInputStream());
-            salida= new DataOutputStream(cliente.getOutputStream());
+            Interfaz interfaz = new Interfaz(700, 600);
 
+            // Thread to update the interface periodically
             Thread actualizador = new Thread(() -> {
                 while (true) {
-                    if(pausado==0)
-                        try {
-                            actualizar_humanos_ref(entrada, salida, i);
-                            actualizar_humanos_zonas_inseg(entrada, salida, i);
-                            actualizar_zombis_zonas_inseg(entrada, salida, i);
-                            actualizar_humanos_tuneles(entrada, salida, i);
-                            actualizar_ranking_zombis(entrada, salida, i);
-                            sleep(500);
-                        } catch (IOException | InterruptedException e) {
-                            throw new RuntimeException(e);
+                    try {
+                        int numeroHumanosRefugio = servidor.getNumeroHumanosRefugio();
+                        interfaz.lblHumanosRefugio.setText("Humanos en refugio: " + numeroHumanosRefugio);
+
+                        int[] humanosZonas = servidor.getNumeroHumanosZonasInseguras();
+                        for (int i = 0; i < 4; i++) {
+                            interfaz.lblHumanosZonas[i].setText("Humanos en zona insegura " + (i + 1) + ": " + humanosZonas[i]);
                         }
+
+                        int[] zombisZonas = servidor.getNumeroZombisZonasInseguras();
+                        for (int i = 0; i < 4; i++) {
+                            interfaz.lblZombisZonas[i].setText("Zombis en zona insegura " + (i + 1) + ": " + zombisZonas[i]);
+                        }
+
+                        int[] humanosTuneles = servidor.getNumeroHumanosTuneles();
+                        for (int i = 0; i < 4; i++) {
+                            interfaz.lblHumanosTuneles[i].setText("Humanos en túnel " + (i + 1) + ": " + humanosTuneles[i]);
+                        }
+
+                        String[] rankingZombis = servidor.getRankingZombisLetales();
+                        StringBuilder ranking = new StringBuilder();
+                        for (String zombi : rankingZombis) {
+                            ranking.append(zombi).append("\n");
+                        }
+                        interfaz.txtTopZombis.setText(ranking.toString());
+
+                        Thread.sleep(500);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
             });
+
             actualizador.start();
-            i.setVisible(true);
+            interfaz.setVisible(true);
 
-
-        }catch(IOException e) {
-            System.out.println("Error: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Error en el cliente: " + e.getMessage());
+            e.printStackTrace();
         }
     }
-   public static void actualizar_humanos_ref(DataInputStream entrada, DataOutputStream salida,Interfaz in) throws IOException {
-
-        salida.writeUTF("NUM_HUMANOS_REFUGIO");
-       int numeroHumanosRefugio= entrada.readInt();
-       in.lblHumanosRefugio.setText("Humanos en refugio: ");
-       in.lblHumanosRefugio.setText("Humanos en refugio: "  + numeroHumanosRefugio);
-   }
-    public static void actualizar_humanos_zonas_inseg(DataInputStream entrada, DataOutputStream salida,Interfaz in) throws IOException {
-        salida.writeUTF("NUM_HUMANOS_ZONASINSEG");
-        for (int i = 1; i <= 4; i++) {
-            int numeroHumanosZonaInseg = entrada.readInt();
-            in.lblHumanosZonas[i-1].setText("Humanos en zona insegura "+i+" :" + numeroHumanosZonaInseg);
-        }
-    }
-    public static void actualizar_zombis_zonas_inseg(DataInputStream entrada, DataOutputStream salida,Interfaz in) throws IOException {
-        salida.writeUTF("NUM_ZOMBIES_ZONASINSEG");
-        for (int i = 1; i <= 4; i++) {
-            int numeroZombisZonaInseg = entrada.readInt();
-            in.lblZombisZonas[i-1].setText("Zombis en zona insegura"+i+" :"+numeroZombisZonaInseg);
-        }
-    }
-    public static void actualizar_humanos_tuneles(DataInputStream entrada, DataOutputStream salida, Interfaz in) throws IOException {
-        salida.writeUTF("NUM_HUMANOS_TUNEL");
-        for (int i = 1; i <= 4; i++) {
-            int numeroHumanosTunel = entrada.readInt();
-            in.lblHumanosTuneles[i-1].setText("Humanos en túnel: " +i+" :"+numeroHumanosTunel);
-        }
-    }
-
-    public static void actualizar_ranking_zombis(DataInputStream entrada, DataOutputStream salida, Interfaz in) throws IOException {
-        salida.writeUTF("TOP_ZOMBIS_LETALES");
-        StringBuilder ranking = new StringBuilder();
-        for (int i = 0; i < 3; i++) {
-            ranking.append(entrada.readUTF()).append("\n");
-        }
-        in.txtTopZombis.setText(ranking.toString());
-    }
-
 }

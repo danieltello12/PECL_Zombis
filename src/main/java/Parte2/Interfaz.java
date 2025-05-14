@@ -2,7 +2,6 @@ package Parte2;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.IOException;
 
 public class Interfaz extends JFrame {
     protected JLabel lblHumanosRefugio;
@@ -11,33 +10,26 @@ public class Interfaz extends JFrame {
     protected JLabel[] lblHumanosZonas;
     protected JTextArea txtTopZombis;
     protected JButton btnPausar;
-    protected JPanel panelInferior;
     protected JButton btnReanudar;
-    protected JPanel panelPrincipal;
 
-    public  Interfaz(int x, int y) {
+    public Interfaz(int width, int height) {
         setTitle("Monitor Apocalipsis Zombi");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(700, 600);
-        setLocationRelativeTo(null); // Centrar ventana
+        setSize(width, height);
+        setLocationRelativeTo(null);
         setLayout(new BorderLayout(10, 10));
 
-        // Panel principal
-        panelPrincipal = new JPanel(new BorderLayout(10, 10));
-        panelPrincipal.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-        add(panelPrincipal);
-
-        // Panel superior: humanos en refugio
-        JPanel panelRefugio = new JPanel();
+        // Panel superior
+        JPanel panelSuperior = new JPanel();
         lblHumanosRefugio = new JLabel("Humanos en Refugio: ");
         lblHumanosRefugio.setFont(new Font("Arial", Font.BOLD, 16));
-        panelRefugio.add(lblHumanosRefugio);
-        panelPrincipal.add(panelRefugio, BorderLayout.NORTH);
+        panelSuperior.add(lblHumanosRefugio);
+        add(panelSuperior, BorderLayout.NORTH);
 
-        // Panel central con túneles y zonas inseguras
+        // Panel central
         JPanel panelCentral = new JPanel(new GridLayout(1, 2, 20, 10));
 
-        // Panel túneles
+        // Túneles
         JPanel panelTuneles = new JPanel(new GridLayout(5, 1, 5, 5));
         panelTuneles.setBorder(BorderFactory.createTitledBorder("Túneles"));
         lblHumanosTuneles = new JLabel[4];
@@ -47,7 +39,7 @@ public class Interfaz extends JFrame {
         }
         panelCentral.add(panelTuneles);
 
-        // Panel zonas inseguras
+        // Zonas inseguras
         JPanel panelZonas = new JPanel(new GridLayout(8, 1, 5, 5));
         panelZonas.setBorder(BorderFactory.createTitledBorder("Zonas Inseguras"));
         lblZombisZonas = new JLabel[4];
@@ -60,12 +52,10 @@ public class Interfaz extends JFrame {
         }
         panelCentral.add(panelZonas);
 
-        panelPrincipal.add(panelCentral, BorderLayout.CENTER);
+        add(panelCentral, BorderLayout.CENTER);
 
-        // Panel inferior con top zombis y botón
-        panelInferior = new JPanel(new BorderLayout(10, 10));
-
-        // Top zombis
+        // Panel inferior
+        JPanel panelInferior = new JPanel(new BorderLayout(10, 10));
         JPanel panelRanking = new JPanel(new BorderLayout());
         panelRanking.setBorder(BorderFactory.createTitledBorder("Top 3 Zombis Más Letales"));
         txtTopZombis = new JTextArea(4, 30);
@@ -74,50 +64,14 @@ public class Interfaz extends JFrame {
         panelRanking.add(new JScrollPane(txtTopZombis), BorderLayout.CENTER);
         panelInferior.add(panelRanking, BorderLayout.CENTER);
 
-        // Botón pausa/reanuda
-
+        // Botones
+        JPanel panelBotones = new JPanel(new GridLayout(1, 2, 10, 10));
         btnPausar = new JButton("Pausar Simulación");
-        btnPausar.setFont(new Font("Arial", Font.BOLD, 16));
-        btnPausar.setBackground(Color.LIGHT_GRAY);
-        btnPausar.addActionListener(e -> {
-            ;
-            if (Cliente.pausado==0) {
-                try {
-                    Cliente.pausado=1;
-                    Cliente.salida.writeUTF("PAUSAR");
-
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
-                }
-
-            }
-        });
-
-
-        panelInferior.add(btnPausar, BorderLayout.SOUTH);
-
         btnReanudar = new JButton("Reanudar Simulación");
-        btnReanudar.setFont(new Font("Arial", Font.BOLD, 16));
-        btnReanudar.setBackground(Color.LIGHT_GRAY);
-        btnReanudar.addActionListener(e -> {
-            if (Cliente.pausado==1) {
-                try {
-                    Cliente.pausado=0;
-                    Cliente.salida.writeUTF("REANUDAR");
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
-                }
+        panelBotones.add(btnPausar);
+        panelBotones.add(btnReanudar);
+        panelInferior.add(panelBotones, BorderLayout.SOUTH);
 
-            }
-        });
-        JPanel botones = new JPanel(new GridLayout(2, 1, 5, 5));
-        botones.add(btnPausar);
-        botones.add(btnReanudar);;
-
-        panelInferior.add(botones, BorderLayout.SOUTH);
-
-        panelPrincipal.add(panelInferior, BorderLayout.SOUTH);
-
-
+        add(panelInferior, BorderLayout.SOUTH);
     }
 }

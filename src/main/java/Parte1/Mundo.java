@@ -6,6 +6,8 @@ import com.example.pecl_zombis.ListaZonasZ;
 
 import javax.swing.*;
 import java.awt.*;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CyclicBarrier;
@@ -14,7 +16,7 @@ import java.util.concurrent.Semaphore;
 import static java.lang.Thread.sleep;
 
 
-public class Mundo extends javax.swing.JFrame{
+public class Mundo extends javax.swing.JFrame {
 
     private javax.swing.JLabel TituloRef;
     private javax.swing.JLabel TituloDes;
@@ -48,7 +50,7 @@ public class Mundo extends javax.swing.JFrame{
     private Comida comida;
     static volatile boolean pausado=false;
 
-    public Mundo() throws InterruptedException {
+    public Mundo() throws InterruptedException{
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         initComponents();
         Descanso = new ListaZonasH(DescansoText);
@@ -90,7 +92,7 @@ public class Mundo extends javax.swing.JFrame{
     public ListaZonasZ getZonasInsegurasZ(int zona) {
         return zonasInsegurasZ.get(zona);
     }
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException{
         HelloController controlador= new HelloController();
         Mundo mundo = new Mundo();
     }
