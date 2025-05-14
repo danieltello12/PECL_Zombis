@@ -42,7 +42,7 @@ public class Servidor extends UnicastRemoteObject implements ServidorInterfaz {
     public int[] getNumeroHumanosTuneles() throws RemoteException {
         int[] tuneles = new int[4];
         for (int i = 0; i < 4; i++) {
-            tuneles[i] = mundo.getNumeroHumanosTunel(i);
+            tuneles[i] = mundo.getNumeroHumanosTuneles(i);
         }
         return tuneles;
     }

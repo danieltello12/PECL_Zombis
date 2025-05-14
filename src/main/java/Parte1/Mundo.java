@@ -216,6 +216,15 @@ public class Mundo extends javax.swing.JFrame {
         }
 
     }
+    public int getNumeroHumanosTuneles(int zona) {
+        if (zona >= 0 && zona < zonasInseguras.size()) {
+            return zonasEntradaTunel.get(zona).getLista().size()+
+                    zonasSalidaTunel.get(zona).getLista().size()+
+                    zonasTunel.get(zona).getLista().size();
+        } else{
+            return -1;
+        }
+    }
     public int getNumeroHumanosRefugio() {
         int totalHumanos = 0;
         totalHumanos += zonaComun.getLista().size();
@@ -224,13 +233,6 @@ public class Mundo extends javax.swing.JFrame {
         return totalHumanos;
     }
 
-    public int getNumeroHumanosTunel(int indice) {
-        if (indice >= 0 && indice < zonasTunel.size()) {
-            return zonasTunel.get(indice).getLista().size();
-        } else{
-            return -1;
-        }
-    }
 
 
     public List<Zombie> getRankingZombis() {
