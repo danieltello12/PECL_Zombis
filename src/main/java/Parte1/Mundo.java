@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 import static java.lang.Thread.sleep;
 
@@ -44,6 +46,13 @@ public class Mundo extends javax.swing.JFrame {
     protected List<ListaZonasH> zonasInseguras = new ArrayList<>();
     private List<ListaZonasZ> zonasInsegurasZ= new ArrayList<>();
     ArrayList<Semaphore> tuneles = new ArrayList<>();
+    private ReentrantLock[] lockTuneles= new ReentrantLock[4];
+    private Condition[] condEntradaTunel= new Condition[4];
+    private Condition[] condSalidaTunel= new Condition[4];
+
+    protected int[] esperandoEntrada= new int[4];
+    protected int[] esperandoSalida= new int[4];
+
     public ArrayList<Humano> humanos= new ArrayList<>();
     public ArrayList<Zombie> zombis= new ArrayList<>();
     ArrayList<CyclicBarrier>  barrerasTuneles= new ArrayList<>();
@@ -66,8 +75,13 @@ public class Mundo extends javax.swing.JFrame {
             zonasEntradaTunel.add(new ListaZonasH(zonasEntradaTunelText.get(i)));
             zonasSalidaTunel.add(new ListaZonasH(zonasSalidaTunelText.get(i)));
             zonasTunel.add(new ListaZonasH(zonasTunelText.get(i)));
-            tuneles.add(new Semaphore(1));
+            tuneles.add(new Semaphore(1,true));
             barrerasTuneles.add(new CyclicBarrier(3));
+            lockTuneles[i] = new ReentrantLock();
+            condEntradaTunel[i] = lockTuneles[i].newCondition();
+            condSalidaTunel[i] = lockTuneles[i].newCondition();
+            esperandoEntrada[i] = 0;
+            esperandoSalida[i] = 0;
         }
         this.setVisible(true);
 

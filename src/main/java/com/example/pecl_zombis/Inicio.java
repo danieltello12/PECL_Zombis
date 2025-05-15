@@ -57,6 +57,9 @@ public class Inicio extends Application {
                                    e.printStackTrace();
                                }
                            });
+                           Zombie paciente0= new Zombie("Z0000",mundo);
+                           mundo.zombis.add(paciente0);
+                           paciente0.start();
                            for(int i=1;i<=10000;i++){
                                while (Mundo.isPausado()) {
                                    try {
@@ -71,9 +74,7 @@ public class Inicio extends Application {
                                mundo.humanos.add(humano);
                                humano.start();
                            }
-                           Zombie paciente0= new Zombie("Z0000",mundo);
-                           mundo.zombis.add(paciente0);
-                           paciente0.start();
+
                        } catch (RemoteException | InterruptedException e) {
                            e.printStackTrace();
                        }

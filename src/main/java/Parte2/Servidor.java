@@ -49,7 +49,7 @@ public class Servidor extends UnicastRemoteObject implements ServidorInterfaz {
 
     @Override
     public String[] getRankingZombisLetales() throws RemoteException {
-        return mundo.getRankingZombis().stream().map(zombie -> zombie.getZombieId()).toArray(String[]::new);
+        return mundo.getRankingZombis().stream().map(zombie -> zombie.getZombieId() + " -> Contador de muertes: "+zombie.getContadorMuertes()).toArray(String[]::new);
     }
 
     @Override

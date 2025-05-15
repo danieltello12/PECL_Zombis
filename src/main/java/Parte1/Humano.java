@@ -152,7 +152,14 @@ public class Humano extends Thread{
 
     Semaphore cerrojo=mundo.tuneles.get(eleccion_tunel);
 
-    //El grupo accede al tunel de 1 en 1
+    while(mundo.esperandoEntrada[eleccion_tunel]>0){
+        try {
+            sleep(50);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
         cerrojo.acquire();
         try {
             pausar_si_pausado();
@@ -201,6 +208,8 @@ public class Humano extends Thread{
         pausar_si_pausado();
         mundo.zonasSalidaTunel.get(zona).meterH(this);
 
+        mundo.esperandoEntrada[zona]++;
+
         Semaphore sem = mundo.tuneles.get(zona);
         sem.acquire();
         try {
@@ -214,6 +223,7 @@ public class Humano extends Thread{
 
             Thread.sleep(1000);
             pausar_si_pausado();
+            mundo.esperandoEntrada[zona]--;
             mundo.zonasTunel.get(zona).sacar(this);
 
 
