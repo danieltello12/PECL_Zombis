@@ -5,15 +5,32 @@ import java.awt.*;
 import java.io.IOException;
 
 public class Interfaz extends JFrame {
-    protected JLabel lblHumanosRefugio;
-    protected JLabel[] lblHumanosTuneles;
-    protected JLabel[] lblZombisZonas;
-    protected JLabel[] lblHumanosZonas;
-    protected JTextArea txtTopZombis;
-    protected JButton btnPausar;
-    protected JButton btnReanudar;
+    private JLabel lblHumanosRefugio;
+    private JLabel[] lblHumanosTuneles;
+    private JLabel[] lblZombisZonas;
+    private JLabel[] lblHumanosZonas;
+    private JTextArea txtTopZombis;
+    private JButton btnPausar;
+    private JButton btnReanudar;
 
-    public Interfaz(int width, int height,ServidorInterfaz servidor) {
+
+    public JLabel getlblhumanosRefugio() {
+        return lblHumanosRefugio;
+    }
+    public JLabel[] getlblHumanosTuneles() {
+        return lblHumanosTuneles;
+    }
+    public JLabel[] getlblZombisZonas() {
+        return lblZombisZonas;
+    }
+    public JLabel[] getlblHumanosZonas() {
+        return lblHumanosZonas;
+    }
+    public JTextArea gettxtTopZombis() {
+        return txtTopZombis;
+    }
+
+    public Interfaz(int width, int height, ServidorInterfaz servidor) {
         setTitle("Monitor Apocalipsis Zombi");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(width, height);
@@ -73,9 +90,9 @@ public class Interfaz extends JFrame {
         btnPausar.setBackground(Color.LIGHT_GRAY);
         btnPausar.addActionListener(e -> {
             ;
-            if (Cliente.pausado==0) {
+            if (Cliente.getPausado()==0) {
                 try {
-                    Cliente.pausado=1;
+                    Cliente.setPausado(1);
                     servidor.pausar();
                     int numeroHumanosRefugio = servidor.getNumeroHumanosRefugio();
                     this.lblHumanosRefugio.setText("Humanos en refugio: " + numeroHumanosRefugio);
@@ -116,9 +133,9 @@ public class Interfaz extends JFrame {
         btnReanudar.setFont(new Font("Arial", Font.BOLD, 16));
         btnReanudar.setBackground(Color.LIGHT_GRAY);
         btnReanudar.addActionListener(e -> {
-            if (Cliente.pausado==1) {
+            if (Cliente.getPausado()==1) {
                 try {
-                    Cliente.pausado=0;
+                    Cliente.setPausado(0);
                     servidor.reanudar();
                 } catch (IOException ex) {
                     throw new RuntimeException(ex);

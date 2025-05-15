@@ -1,13 +1,8 @@
 package Parte1;
 
-import com.example.pecl_zombis.Inicio;
-
-import java.sql.SQLOutput;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Lock;
-import java.util.logging.Logger;
 
 public class Humano extends Thread{
     private Mundo mundo;
@@ -86,7 +81,7 @@ public class Humano extends Thread{
             try {
                 Logs.getInstancia().logInfo("El humano " + id + "va a la zona comedor");
                 zonaComedor();
-                mundo.comedor.sacar(this);
+                mundo.getComedor().sacar(this);
 
             } catch (InterruptedException e) {
                 Logs.getInstancia().logWarning("El humano " + id + " ha sido interrumpido en la zona comedor");
@@ -118,7 +113,7 @@ public class Humano extends Thread{
 
        //System.out.println("El humano "+id+" ha accedido a la zona común");
         pausar_si_pausado();
-            mundo.zonaComun.meterH(this);
+            mundo.getZonaComun().meterH(this);
 
         //Accede a la zona común
 
@@ -137,7 +132,7 @@ public class Humano extends Thread{
         int eleccion_tunel=(int)(Math.random()*4);
 
         //Espera a que haya 3 en ese tunel
-        CyclicBarrier barrera=mundo.barrerasTuneles.get(eleccion_tunel);
+        CyclicBarrier barrera=mundo.getBarrerasTuneles().get(eleccion_tunel);
        // System.out.println("El humano "+id+" esta esperando en el tunel "
           //      +eleccion_tunel+" a que lleguen el resto de compañeros");
         try {
@@ -146,13 +141,13 @@ public class Humano extends Thread{
             throw new RuntimeException(e);
     }
         pausar_si_pausado();
-        mundo.zonaComun.sacar(this);
+        mundo.getZonaComun().sacar(this);
         pausar_si_pausado();
-        mundo.zonasEntradaTunel.get(eleccion_tunel).meterH(this);
+        mundo.getZonasEntradaTunel().get(eleccion_tunel).meterH(this);
 
-    Semaphore cerrojo=mundo.tuneles.get(eleccion_tunel);
+    Semaphore cerrojo=mundo.getTuneles().get(eleccion_tunel);
 
-    while(mundo.esperandoEntrada[eleccion_tunel]>0){
+    while(mundo.getEsperandoEntrada(eleccion_tunel)>0){
         try {
             sleep(50);
         } catch (InterruptedException e) {
@@ -163,15 +158,15 @@ public class Humano extends Thread{
         cerrojo.acquire();
         try {
             pausar_si_pausado();
-            mundo.zonasEntradaTunel.get(eleccion_tunel).sacar(this);
+            mundo.getZonasEntradaTunel().get(eleccion_tunel).sacar(this);
 
             pausar_si_pausado();
-            mundo.zonasTunel.get(eleccion_tunel).meterH(this);
+            mundo.getZonasTunel().get(eleccion_tunel).meterH(this);
 
             sleep(1000);
             pausar_si_pausado();
             Logs.getInstancia().logInfo("El humano " + id + " ha cruzado el tunel " + eleccion_tunel + " y sale a la zona exterior");
-            mundo.zonasTunel.get(eleccion_tunel).sacar(this);
+            mundo.getZonasTunel().get(eleccion_tunel).sacar(this);
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -188,14 +183,14 @@ public class Humano extends Thread{
     public void zonaExterior(int zona) throws InterruptedException {
 
         pausar_si_pausado();
-        mundo.zonasInseguras.get(zona).meterH(this);
+        mundo.getZonasInseguras().get(zona).meterH(this);
 
         Thread.sleep((int) (Math.random() * 2000) + 3000);
         while (peleando) {
             Thread.sleep(0);
         }
         pausar_si_pausado();
-        mundo.zonasInseguras.get(zona).sacar(this);
+        mundo.getZonasInseguras().get(zona).sacar(this);
 
         if (atacado) {
             Logs.getInstancia().logInfo("El humano " + id + " ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida");
@@ -206,25 +201,29 @@ public class Humano extends Thread{
             mundo.getComida().setComida(2);
         }
         pausar_si_pausado();
-        mundo.zonasSalidaTunel.get(zona).meterH(this);
+        mundo.getZonasSalidaTunel().get(zona).meterH(this);
 
-        mundo.esperandoEntrada[zona]++;
+        int esperando=mundo.getEsperandoEntrada(zona);
+        esperando++;
+        mundo.setEsperandoEntrada(esperando,zona);
 
-        Semaphore sem = mundo.tuneles.get(zona);
+        Semaphore sem = mundo.getTuneles().get(zona);
         sem.acquire();
         try {
             pausar_si_pausado();
-            mundo.zonasSalidaTunel.get(zona).sacar(this);
+            mundo.getZonasSalidaTunel().get(zona).sacar(this);
 
 
             pausar_si_pausado();
             System.out.println("El humano " + id + " ha accedido al tunel");
-            mundo.zonasTunel.get(zona).meterH(this);
+            mundo.getZonasTunel().get(zona).meterH(this);
 
             Thread.sleep(1000);
             pausar_si_pausado();
-            mundo.esperandoEntrada[zona]--;
-            mundo.zonasTunel.get(zona).sacar(this);
+            esperando=mundo.getEsperandoEntrada(zona);
+            esperando--;
+            mundo.setEsperandoEntrada(esperando,zona);
+            mundo.getZonasTunel().get(zona).sacar(this);
 
 
 
@@ -234,11 +233,11 @@ public class Humano extends Thread{
 
             pausar_si_pausado();
             System.out.println("El humano " + id + " ha dejado la comida y va a descansar");
-            mundo.Descanso.meterH(this);
+            mundo.getDescanso().meterH(this);
 
             Thread.sleep((int) (Math.random() * 2000) + 4000);
             pausar_si_pausado();
-            mundo.Descanso.sacar(this);
+            mundo.getDescanso().sacar(this);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -251,7 +250,7 @@ public class Humano extends Thread{
     /*Modela el comportamiento del humano en la zona comedor
      */
         pausar_si_pausado();
-        mundo.comedor.meterH(this);
+        mundo.getComedor().meterH(this);
         System.out.println("El humano " + id + " ha accedido a la zona comedor" );
         pausar_si_pausado();
         mundo.getComida().comer(this);

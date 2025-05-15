@@ -1,10 +1,12 @@
-package com.example.pecl_zombis;
+package ProgramaPrincipal;
 
 import Parte1.Humano;
 import Parte1.Mundo;
 import Parte1.Zombie;
 import Parte2.Cliente;
 import Parte2.Servidor;
+import com.example.pecl_zombis.Boton;
+import com.example.pecl_zombis.Cajas;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -58,7 +60,7 @@ public class Inicio extends Application {
                                }
                            });
                            Zombie paciente0= new Zombie("Z0000",mundo);
-                           mundo.zombis.add(paciente0);
+                           mundo.getZombis().add(paciente0);
                            paciente0.start();
                            for(int i=1;i<=10000;i++){
                                while (Mundo.isPausado()) {
@@ -71,7 +73,7 @@ public class Inicio extends Application {
                                String id=String.format("H%04d", i);
                                sleep((int) (Math.random() * 500) + 2000);
                                Humano humano = new Humano(id, mundo);
-                               mundo.humanos.add(humano);
+                               mundo.getHumanos().add(humano);
                                humano.start();
                            }
 

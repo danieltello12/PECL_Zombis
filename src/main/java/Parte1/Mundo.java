@@ -1,18 +1,14 @@
 package Parte1;
 
-import com.example.pecl_zombis.HelloController;
 import com.example.pecl_zombis.ListaZonasH;
 import com.example.pecl_zombis.ListaZonasZ;
 
 import javax.swing.*;
 import java.awt.*;
-import java.rmi.RemoteException;
-import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static java.lang.Thread.sleep;
@@ -37,26 +33,77 @@ public class Mundo extends javax.swing.JFrame {
 
     private ArrayList<JTextArea> zonasExtTextH= new ArrayList<>();
     private ArrayList<JTextArea> zonasExtTextZ= new ArrayList<>();
-    protected ListaZonasH Descanso ;
-    protected ListaZonasH comedor ;
-    protected ListaZonasH zonaComun ;
-    protected List<ListaZonasH> zonasEntradaTunel = new ArrayList<>();
-    protected List<ListaZonasH> zonasSalidaTunel = new ArrayList<>();
-    protected List<ListaZonasH> zonasTunel = new ArrayList<>();
-    protected List<ListaZonasH> zonasInseguras = new ArrayList<>();
+    private ListaZonasH Descanso ;
+    private ListaZonasH comedor ;
+    private ListaZonasH zonaComun ;
+    private List<ListaZonasH> zonasEntradaTunel = new ArrayList<>();
+    private List<ListaZonasH> zonasSalidaTunel = new ArrayList<>();
+    private List<ListaZonasH> zonasTunel = new ArrayList<>();
+    private List<ListaZonasH> zonasInseguras = new ArrayList<>();
     private List<ListaZonasZ> zonasInsegurasZ= new ArrayList<>();
-    ArrayList<Semaphore> tuneles = new ArrayList<>();
+    private ArrayList<Semaphore> tuneles = new ArrayList<>();
     private ReentrantLock[] lockTuneles= new ReentrantLock[4];
 
 
-    protected int[] esperandoEntrada= new int[4];
+    private int[] esperandoEntrada= new int[4];
 
 
-    public ArrayList<Humano> humanos= new ArrayList<>();
-    public ArrayList<Zombie> zombis= new ArrayList<>();
-    ArrayList<CyclicBarrier>  barrerasTuneles= new ArrayList<>();
+    private ArrayList<Humano> humanos= new ArrayList<>();
+    private ArrayList<Zombie> zombis= new ArrayList<>();
+    private ArrayList<CyclicBarrier>  barrerasTuneles= new ArrayList<>();
     private Comida comida;
     static volatile boolean pausado=false;
+
+
+    public synchronized ArrayList<CyclicBarrier> getBarrerasTuneles() {
+        return barrerasTuneles;
+    }
+
+    public synchronized ListaZonasH getComedor() {
+        return comedor;
+    }
+
+    public synchronized ArrayList<Semaphore> getTuneles() {
+        return tuneles;
+    }
+
+    public synchronized ArrayList<Humano> getHumanos() {
+        return humanos;
+    }
+
+    public synchronized ArrayList<Zombie> getZombis() {
+        return zombis;
+    }
+
+    public  synchronized ArrayList<ListaZonasH> getZonasEntradaTunel() {
+        return (ArrayList<ListaZonasH>) zonasEntradaTunel;
+    }
+
+    public synchronized ArrayList<ListaZonasH> getZonasSalidaTunel() {
+        return (ArrayList<ListaZonasH>) zonasSalidaTunel;
+    }
+    public synchronized ArrayList<ListaZonasH> getZonasTunel() {
+        return (ArrayList<ListaZonasH>) zonasTunel;
+    }
+    public synchronized ArrayList<ListaZonasH> getZonasInseguras() {
+        return (ArrayList<ListaZonasH>) zonasInseguras;
+    }
+
+
+    public synchronized int getEsperandoEntrada(int i) {
+        return esperandoEntrada[i];
+    }
+    public synchronized void setEsperandoEntrada(int esperandoEntrada, int i) {
+        this.esperandoEntrada[i] = esperandoEntrada;
+    }
+    public synchronized ListaZonasH getDescanso() {
+        return Descanso;
+    }
+    public synchronized ListaZonasH getZonaComun() {
+        return zonaComun;
+    }
+
+
 
     public Mundo() throws InterruptedException{
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);

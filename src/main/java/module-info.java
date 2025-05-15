@@ -9,4 +9,6 @@ module com.example.pecl_zombis {
     opens com.example.pecl_zombis to javafx.fxml;
     exports com.example.pecl_zombis;
     exports Parte2;
+    exports ProgramaPrincipal;
+    opens ProgramaPrincipal to javafx.fxml;
 }

@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import static java.lang.Thread.sleep;
 
 public class ListaZonasZ {
-    ArrayList<Zombie> lista;
-    JTextArea tf;
+    private ArrayList<Zombie> lista;
+    private JTextArea tf;
 
     public ListaZonasZ(JTextArea tf)
     {

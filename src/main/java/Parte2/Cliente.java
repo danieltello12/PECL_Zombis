@@ -5,8 +5,15 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 public class Cliente {
-    public static int pausado = 0;
-    public static ServidorInterfaz servidor;
+    private static int pausado = 0;
+    private static ServidorInterfaz servidor;
+
+    public synchronized static void setPausado(int pausado) {
+        Cliente.pausado = pausado;
+    }
+    public synchronized static int getPausado() {
+        return pausado;
+    }
 
     public static void main(String[] args) {
         try {
@@ -20,21 +27,21 @@ public class Cliente {
                 while (true) {
                     try {
                         int numeroHumanosRefugio = servidor.getNumeroHumanosRefugio();
-                        interfaz.lblHumanosRefugio.setText("Humanos en refugio: " + numeroHumanosRefugio);
+                        interfaz.getlblhumanosRefugio().setText("Humanos en refugio: " + numeroHumanosRefugio);
 
                         int[] humanosZonas = servidor.getNumeroHumanosZonasInseguras();
                         for (int i = 0; i < 4; i++) {
-                            interfaz.lblHumanosZonas[i].setText("Humanos en zona insegura " + (i + 1) + ": " + humanosZonas[i]);
+                            interfaz.getlblHumanosZonas()[i].setText("Humanos en zona insegura " + (i + 1) + ": " + humanosZonas[i]);
                         }
 
                         int[] zombisZonas = servidor.getNumeroZombisZonasInseguras();
                         for (int i = 0; i < 4; i++) {
-                            interfaz.lblZombisZonas[i].setText("Zombis en zona insegura " + (i + 1) + ": " + zombisZonas[i]);
+                            interfaz.getlblZombisZonas()[i].setText("Zombis en zona insegura " + (i + 1) + ": " + zombisZonas[i]);
                         }
 
                         int[] humanosTuneles = servidor.getNumeroHumanosTuneles();
                         for (int i = 0; i < 4; i++) {
-                            interfaz.lblHumanosTuneles[i].setText("Humanos en túnel " + (i + 1) + ": " + humanosTuneles[i]);
+                            interfaz.getlblHumanosTuneles()[i].setText("Humanos en túnel " + (i + 1) + ": " + humanosTuneles[i]);
                         }
 
                         String[] rankingZombis = servidor.getRankingZombisLetales();
@@ -42,7 +49,7 @@ public class Cliente {
                         for (String zombi : rankingZombis) {
                             ranking.append(zombi).append("\n");
                         }
-                        interfaz.txtTopZombis.setText(ranking.toString());
+                        interfaz.gettxtTopZombis().setText(ranking.toString());
 
                         Thread.sleep(500);
                     } catch (Exception e) {

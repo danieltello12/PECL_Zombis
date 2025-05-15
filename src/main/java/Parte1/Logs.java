@@ -15,7 +15,7 @@ public class Logs {
 
             //Lo guardamos en el .txt, para que no sobrescriba sobre el archivo anterior
             //decimos que lo haga en modo append y simplemente lo añada al final
-            FileHandler fileHandler= new FileHandler("apocalipsis.txt", true);
+            FileHandler fileHandler= new FileHandler("apocalipsis.txt", false);
             fileHandler.setLevel(Level.ALL); //Podemos utilizar todo tipo de logs
             fileHandler.setFormatter(new SimpleFormatter());
             //Lo añadimim

@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import static java.lang.Thread.sleep;
 
 public class ListaZonasH {
-    ArrayList<Humano> lista;
-    JTextArea tf;
+    private ArrayList<Humano> lista;
+    private  JTextArea tf;
 
     public ListaZonasH(JTextArea tf)
     {
