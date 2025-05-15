@@ -171,14 +171,8 @@ class Cajas extends Pane{
     +addItems(Boton... items):void
     +addItem(Boton item):void
     }
-class HelloController{
-    -Label welcomeText
-    +onHelloButtonClick():void
-    }
-class Inicio extends Application{
-    +start(Stage stage):void
-    +main(String[] args):void
-    }
+
+
 class ListaZonasH{
     -ArrayList<Humano> lista
     -JTextArea tf
@@ -197,10 +191,17 @@ class ListaZonasZ{
     + «synchronized» getLista():ArrayList<Zombie>
     + imprimir():void
     }
-
-class PantallaPrincipal{
-    +PantallaPrincipal()
+    }
+package ProgramaPrincipal{
+class Inicio extends Application{
++start(Stage stage):void
++main(String[] args):void
 }
+}
+
+
+
+
 
 
 
