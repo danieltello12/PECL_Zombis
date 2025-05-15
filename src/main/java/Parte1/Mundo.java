@@ -191,6 +191,7 @@ public class Mundo extends javax.swing.JFrame {
             sleep((int) (Math.random() * 1000)+500);
             int ataqueExitoso=(int)(Math.random()*100);
             if (ataqueExitoso<66){
+                Logs.getInstancia().logInfo("El zombi "+zombie.getZombieId()+ " no ha podido matar al humano "+presa.getHumanoId());
                 System.out.println("El zombi "+zombie.getZombieId()+ " no ha podido matar al humano "+presa.getHumanoId());
                 presa.setLibre();
                 return false;

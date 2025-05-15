@@ -90,7 +90,6 @@ public class Humano extends Thread{
 
             } catch (InterruptedException e) {
                 Logs.getInstancia().logWarning("El humano " + id + " ha sido interrumpido en la zona comedor");
-                //System.out.println("El humano " + id + " ahora es un zombie .");
                 break;
             }
             if (atacado) {
@@ -164,7 +163,7 @@ public class Humano extends Thread{
 
             sleep(1000);
             pausar_si_pausado();
-            Logs.getInstancia().logInfo("El humano " + id + " ha cruzado el tunel " + eleccion_tunel);
+            Logs.getInstancia().logInfo("El humano " + id + " ha cruzado el tunel " + eleccion_tunel + " y sale a la zona exterior");
             mundo.zonasTunel.get(eleccion_tunel).sacar(this);
         }
         catch (Exception e) {
@@ -195,7 +194,7 @@ public class Humano extends Thread{
             Logs.getInstancia().logInfo("El humano " + id + " ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida");
         } else {
 
-            Logs.getInstancia().logInfo("El humano " + id + " ha recogido 2 piezas de comida");
+            Logs.getInstancia().logInfo("El humano " + id + " ha recogido 2 piezas de comida y vuelve al refugio");
             pausar_si_pausado();
             mundo.getComida().setComida(2);
         }
@@ -216,6 +215,8 @@ public class Humano extends Thread{
             Thread.sleep(1000);
             pausar_si_pausado();
             mundo.zonasTunel.get(zona).sacar(this);
+
+
 
             System.out.println("El humano " + id + " ha regresado al refugio");
 

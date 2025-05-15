@@ -57,7 +57,7 @@ public class Inicio extends Application {
                                    e.printStackTrace();
                                }
                            });
-                           for(int i=1;i<=10;i++){
+                           for(int i=1;i<=10000;i++){
                                while (Mundo.isPausado()) {
                                    try {
                                        sleep(100);
