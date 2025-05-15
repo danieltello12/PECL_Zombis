@@ -12,9 +12,9 @@ import java.util.logging.Logger;
 public class Humano extends Thread{
     private Mundo mundo;
     private String id;
-    Boolean atacado;
-    Boolean vivo;
-    Boolean peleando=false;
+    private Boolean atacado;
+    private Boolean vivo;
+    private Boolean peleando=false;
 
     public void pausar_si_pausado(){
         while(Mundo.pausado){

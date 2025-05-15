@@ -39,19 +39,21 @@ class Mundo{
     - JTextArea ComidaText
     - ArrayList<JTextArea> zonasExtTextH
     - ArrayList<JTextArea> zonasExtTextZ
-    ~ ListaZonasH Descanso
-    ~ ListaZonasH comedor
-    ~ ListaZonasH zonaComun
-    ~ List<ListaZonasH> zonasEntradaTunel
-    ~ List<ListaZonasH> zonasSalidaTunel
-    ~ List<ListaZonasH> zonasTunel
-    ~ List<ListaZonasH> zonasInseguras
+    - ListaZonasH Descanso
+    - ListaZonasH comedor
+    - ListaZonasH zonaComun
+    - List<ListaZonasH> zonasEntradaTunel
+    - List<ListaZonasH> zonasSalidaTunel
+    - List<ListaZonasH> zonasTunel
+    - List<ListaZonasH> zonasInseguras
     - List<ListaZonasZ> zonasInsegurasZ
-    ~ ArrayList<Semaphore> tuneles
-    ~ ArrayList<Humano> humanos
-    ~ ArrayList<Zombie> zombis
-    ~ ArrayList<CyclicBarrier> barrerasTuneles
+    - ArrayList<Semaphore> tuneles
+    - ArrayList<Humano> humanos
+    - ArrayList<Zombie> zombis
+    - ArrayList<CyclicBarrier> barrerasTuneles
     - Comida comida
+    - int[] esperandoEntrada
+
     # static volatile boolean pausado
 
     +Mundo(HelloController controlador)
@@ -69,6 +71,19 @@ class Mundo{
     +getNumeroZombisZonasInseguras():int[]
     +getNumeroHumanosRefugio():int
     +getRankingZombis():List<Zombie>
+    + getDescanso(): ListaZonasH
+     + getComedor(): ListaZonasH
+     + getZonaComun(): ListaZonasH
+     + getZonasEntradaTunel(): List<ListaZonasH>
+     + getZonasSalidaTunel(): List<ListaZonasH>
+     + getZonasTunel(): List<ListaZonasH>
+     + getZonasInseguras(): List<ListaZonasH>
+     + getZonasInsegurasZ(): List<ListaZonasZ>
+     + getTuneles(): ArrayList<Semaphore>
+     + getHumanos(): ArrayList<Humano>
+     + getZombis(): ArrayList<Zombie>
+     + getBarrerasTuneles(): ArrayList<CyclicBarrier>
+     + getEsperandoEntrada(): int[]
 
 
 }
@@ -93,8 +108,11 @@ class Comida{
 }
 package Parte2{
 class Cliente{
--Boolean pausado=false
+-ServidorInterfaz servidor
+-int pausado = 0
 +main(String[] args):void
++getServidor():ServidorInterfaz
++getPausado():int
 
 }
 
@@ -107,8 +125,16 @@ class Interfaz{
 -JButton btnPausarReanudar
 
 + Interfaz(int x, int y): void
++ getLblHumanosRefugio(): JLabel
++ getLblHumanosTuneles(): JLabel[]
++ getLblZombisZonas(): JLabel[]
++ getLblHumanosZonas(): JLabel[]
++ getTxtTopZombis(): JTextArea
++ getBtnPausar(): JButton
++ getBtnReanudar(): JButton
 }
 class Servidor implements ServidorInterfaz{
+-Mundo mundo
 +Servidor(Mundo mundo)
 +getNumeroHumanosRefugio(): int
 +getNumeroHumanosZonasInseguras(): int[]

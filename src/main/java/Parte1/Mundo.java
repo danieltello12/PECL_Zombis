@@ -47,11 +47,10 @@ public class Mundo extends javax.swing.JFrame {
     private List<ListaZonasZ> zonasInsegurasZ= new ArrayList<>();
     ArrayList<Semaphore> tuneles = new ArrayList<>();
     private ReentrantLock[] lockTuneles= new ReentrantLock[4];
-    private Condition[] condEntradaTunel= new Condition[4];
-    private Condition[] condSalidaTunel= new Condition[4];
+
 
     protected int[] esperandoEntrada= new int[4];
-    protected int[] esperandoSalida= new int[4];
+
 
     public ArrayList<Humano> humanos= new ArrayList<>();
     public ArrayList<Zombie> zombis= new ArrayList<>();
@@ -78,10 +77,8 @@ public class Mundo extends javax.swing.JFrame {
             tuneles.add(new Semaphore(1,true));
             barrerasTuneles.add(new CyclicBarrier(3));
             lockTuneles[i] = new ReentrantLock();
-            condEntradaTunel[i] = lockTuneles[i].newCondition();
-            condSalidaTunel[i] = lockTuneles[i].newCondition();
             esperandoEntrada[i] = 0;
-            esperandoSalida[i] = 0;
+
         }
         this.setVisible(true);
 
