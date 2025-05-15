@@ -16,8 +16,6 @@ public class Cliente {
 
 
             Interfaz interfaz = new Interfaz(700, 600,servidor);
-
-            // Thread to update the interface periodically
             Thread actualizador = new Thread(() -> {
                 while (true) {
                     try {

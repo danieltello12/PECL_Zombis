@@ -15,6 +15,7 @@ class Humano extends Thread{
     +zonaComun():int
     +zonaExterior(int zona):void
     +zonaComedor():void
+    +pausar_si_pausado():void
 }
 
 
@@ -25,17 +26,49 @@ class Zombie extends Thread{
     +Zombie(String id, Mundo mundo)
     +getZombieId():String
     +run():void
+    +pausar_si_pausado():void
 }
 
 class Mundo{
-    ~HelloController controlador
-    -Refugio refugio
-    -List<List<Humano>> zonasInseguras
-    ~ArrayList<Lock> tuneles
-    ~ArrayList<CyclicBarrier> barreras
+    - ArrayList<JTextArea> zonasEntradaTunelText
+    - ArrayList<JTextArea> zonasSalidaTunelText
+    - ArrayList<JTextArea> zonasTunelText
+    - JTextArea DescansoText
+    - JTextArea ComedorText
+    - JTextArea zonaComunText
+    - JTextArea ComidaText
+    - ArrayList<JTextArea> zonasExtTextH
+    - ArrayList<JTextArea> zonasExtTextZ
+    ~ ListaZonasH Descanso
+    ~ ListaZonasH comedor
+    ~ ListaZonasH zonaComun
+    ~ List<ListaZonasH> zonasEntradaTunel
+    ~ List<ListaZonasH> zonasSalidaTunel
+    ~ List<ListaZonasH> zonasTunel
+    ~ List<ListaZonasH> zonasInseguras
+    - List<ListaZonasZ> zonasInsegurasZ
+    ~ ArrayList<Semaphore> tuneles
+    ~ ArrayList<Humano> humanos
+    ~ ArrayList<Zombie> zombis
+    ~ ArrayList<CyclicBarrier> barrerasTuneles
+    - Comida comida
+    # static volatile boolean pausado
+
     +Mundo(HelloController controlador)
     +getRefugio():Refugio
     +atacar_Humano(Zombie zombie,Humano presa):Boolean
+    +getZonasInsegurasZ(int zona): ListaZonasZ
+    +getComida():Comida
+    +getContador_Humanos(int zona):List<Humano>
+    +crearTextArea(Font font,int alto, int ancho): JTextArea
+    +initComponents():void
+    +wrapScroll(JTextArea area,int alto, int ancho): JScrollPane
+    +isPausado():boolean
+    +setPausado(boolean pausado):void
+    +getNumeroHumanosTuneles(int zona):int
+    +getNumeroZombisZonasInseguras():int[]
+    +getNumeroHumanosRefugio():int
+    +getRankingZombis():List<Zombie>
 
 
 }
@@ -62,11 +95,7 @@ package Parte2{
 class Cliente{
 -Boolean pausado=false
 +main(String[] args):void
-+actualizar_humanos_zonas_inseg(DataInputStream entrada, DataOutputStream salida,Interfaz in): void
-+actualizar_humanos_refugio(DataInputStream entrada, DataOutputStream salida, Interfaz in): void
-+actualizar_zombies_zonas_inseg(DataInputStream entrada, DataOutputStream salida, Interfaz in): void
-+actualizar_humanos_tuneles(DataInputStream entrada, DataOutputStream salida, Interfaz in):void
-+actualizar_ranking_zombis(DataInputStream entrada, DataOutputStream salida, Interfaz in): void
+
 }
 
 class Interfaz{
@@ -79,8 +108,25 @@ class Interfaz{
 
 + Interfaz(int x, int y): void
 }
-class Servidor{
-+main(args: String[]): void
+class Servidor implements ServidorInterfaz{
++Servidor(Mundo mundo)
++getNumeroHumanosRefugio(): int
++getNumeroHumanosZonasInseguras(): int[]
++getNumeroZombisZonasInseguras(): int[]
++getNumeroHumanosTuneles(): int[]
++getRankingZombiesLetales(): String[]
++pausar():void
++reanudar():void
+}
+
+interface ServidorInterfaz extends Remote{
++getNumeroHumanosRefugio(): int
++getNumeroHumanosZonasInseguras(): int[]
++getNumeroZombisZonasInseguras(): int[]
++getNumeroHumanosTuneles(): int[]
++getRankingZombiesLetales(): String[]
++pausar():void
++reanudar():void
 }
 }
 

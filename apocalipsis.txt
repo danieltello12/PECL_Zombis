@@ -14914,6 +14914,2060 @@ may 14, 2025 12:05:32 P. M. Parte1.Logs logInfo
 INFO: El humano H0005va a la zona comedor
 may 14, 2025 12:05:32 P. M. Parte1.Logs logInfo
 INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 12:26:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 14, 2025 12:26:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 12:26:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 14, 2025 12:26:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 12:26:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 14, 2025 12:26:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 12:26:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 14, 2025 12:26:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 12:27:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 14, 2025 12:27:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 12:27:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 14, 2025 12:27:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:27:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 14, 2025 12:27:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 12:27:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 14, 2025 12:27:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 12:27:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 1
+may 14, 2025 12:27:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 12:27:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 14, 2025 12:27:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:27:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 14, 2025 12:27:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 12:27:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 1
+may 14, 2025 12:27:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 12:27:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 1
+may 14, 2025 12:27:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 12:27:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 14, 2025 12:27:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 12:27:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 14, 2025 12:27:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 12:27:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 2
+may 14, 2025 12:27:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 12:27:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 2
+may 14, 2025 12:27:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 14, 2025 12:27:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 12:27:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 14, 2025 12:27:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 2
+may 14, 2025 12:27:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 14, 2025 12:27:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 12:27:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 12:27:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 14, 2025 12:27:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 12:27:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 12:27:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 14, 2025 12:27:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 12:27:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 14, 2025 12:27:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 14, 2025 12:27:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 12:27:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 14, 2025 12:27:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 12:27:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:27:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 12:27:16 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 12:27:16 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 14, 2025 12:27:16 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 12:27:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 12:27:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 14, 2025 12:27:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 12:27:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:27:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:27:21 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:27:21 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:27:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 3
+may 14, 2025 12:27:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 12:27:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0003va a la zona comedor
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 3
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 2
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0003va a la zona comedor
+may 14, 2025 12:27:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 3
+may 14, 2025 12:27:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 12:27:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 2
+may 14, 2025 12:27:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 2
+may 14, 2025 12:27:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 2
+may 14, 2025 12:27:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 2
+may 14, 2025 12:27:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 14, 2025 12:27:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:27:26 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 2
+may 14, 2025 12:27:26 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 12:27:26 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 12:27:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 12:27:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 12:27:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 12:27:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 12:27:28 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 12:27:28 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 12:27:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 14, 2025 12:27:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:27:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 12:27:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 12:27:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 0
+may 14, 2025 12:27:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:27:30 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 0
+may 14, 2025 12:27:30 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:27:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 12:27:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 0
+may 14, 2025 12:27:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:27:32 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:27:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 14, 2025 12:27:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 12:27:33 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 12:27:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 12:27:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 14, 2025 12:27:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:35 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 12:27:36 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 12:27:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:36 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:27:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 12:27:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 12:27:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 12:27:39 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0010va a la zona comedor
+may 14, 2025 12:27:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 12:27:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:27:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 0
+may 14, 2025 12:27:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:27:41 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 0
+may 14, 2025 12:27:41 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:27:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:27:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:27:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 12:27:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 0
+may 14, 2025 12:27:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:27:43 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 12:27:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 12:27:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 12:27:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 12:27:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 12:27:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:27:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 12:27:46 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha recogido 2 piezas de comida
+may 14, 2025 12:27:46 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 12:27:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 12:27:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:27:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:32:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 14, 2025 12:32:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 12:32:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 14, 2025 12:32:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 12:32:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 14, 2025 12:32:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 12:32:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 14, 2025 12:32:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 12:32:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 14, 2025 12:32:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 12:32:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 14, 2025 12:32:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 12:32:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 14, 2025 12:32:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:32:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 14, 2025 12:32:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:32:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 14, 2025 12:32:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 12:32:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 14, 2025 12:32:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 12:32:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 14, 2025 12:32:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 12:32:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 14, 2025 12:32:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 12:32:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 14, 2025 12:32:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 12:32:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 14, 2025 12:32:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 12:32:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 14, 2025 12:32:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 12:32:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 3
+may 14, 2025 12:32:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 12:32:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 14, 2025 12:32:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 12:32:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 3
+may 14, 2025 12:32:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 12:32:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 14, 2025 12:32:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 12:32:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 0
+may 14, 2025 12:32:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:32:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 3
+may 14, 2025 12:32:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 12:33:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 14, 2025 12:33:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 12:33:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:33:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 0
+may 14, 2025 12:33:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:33:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 14, 2025 12:33:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 12:33:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 0
+may 14, 2025 12:33:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 12:33:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 1
+may 14, 2025 12:33:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 12:33:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 12:33:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 12:33:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 1
+may 14, 2025 12:33:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha muerto
+may 14, 2025 12:33:03 P. M. Parte1.Logs logWarning
+WARNING: El humano H0003 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0003 en la zona 0número de muertes: 1
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 1
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 12:33:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:33:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 12:33:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 12:33:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 12:33:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 12:33:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:33:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 12:33:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:33:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 12:33:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 12:33:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 12:33:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 12:33:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:33:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:33:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 12:33:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 12:33:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 12:33:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 12:33:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 12:33:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 12:33:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 12:33:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:33:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 12:33:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 12:33:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 12:33:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 12:33:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:18:41 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 14, 2025 1:18:41 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 1:18:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 14, 2025 1:18:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 1:18:43 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 14, 2025 1:18:43 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 1:18:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 14, 2025 1:18:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 1:18:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 14, 2025 1:18:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 1:18:46 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 14, 2025 1:18:46 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 1:18:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 14, 2025 1:18:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:18:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 14, 2025 1:18:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:18:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 14, 2025 1:18:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:18:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 14, 2025 1:18:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:18:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 14, 2025 1:18:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:18:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 14, 2025 1:18:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:18:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 14, 2025 1:18:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:18:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 14, 2025 1:18:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:18:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 14, 2025 1:18:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:18:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 2
+may 14, 2025 1:18:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:18:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 14, 2025 1:18:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:18:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 2
+may 14, 2025 1:18:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:18:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 14, 2025 1:18:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:18:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 2
+may 14, 2025 1:18:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 1:19:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 14, 2025 1:19:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:19:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 14, 2025 1:19:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 1:19:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:01 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:19:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 14, 2025 1:19:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 1:19:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 3
+may 14, 2025 1:19:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:19:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 3
+may 14, 2025 1:19:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 3
+may 14, 2025 1:19:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 3
+may 14, 2025 1:19:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 3
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 3
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 1
+may 14, 2025 1:19:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:19:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 1
+may 14, 2025 1:19:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:19:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 1:19:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 1
+may 14, 2025 1:19:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:19:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:19:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 1:19:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 14, 2025 1:19:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 14, 2025 1:19:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:19:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 1:19:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 1:19:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 1:19:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:19:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 14, 2025 1:19:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:19:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0010va a la zona comedor
+may 14, 2025 1:19:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:16 P. M. Parte1.Logs logInfo
+INFO: El humano H0010va a la zona comedor
+may 14, 2025 1:19:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:19:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:19:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:19:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:19:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:21 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 1:19:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:19:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 2
+may 14, 2025 1:19:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:19:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 2
+may 14, 2025 1:19:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 1:19:22 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 2
+may 14, 2025 1:19:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 14, 2025 1:19:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:19:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:19:25 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:26 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 1:19:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:19:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:19:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha recogido 2 piezas de comida
+may 14, 2025 1:19:28 P. M. Parte1.Logs logInfo
+INFO: El humano H0003va a la zona comedor
+may 14, 2025 1:19:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 0
+may 14, 2025 1:19:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:19:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:29 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:19:30 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:19:30 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 0
+may 14, 2025 1:19:30 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:19:30 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 0
+may 14, 2025 1:19:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:19:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:19:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 1:19:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:33 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:19:33 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 0
+may 14, 2025 1:19:33 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:19:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 1:19:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 1:19:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 14, 2025 1:19:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 0
+may 14, 2025 1:19:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:19:35 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 0
+may 14, 2025 1:19:35 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:19:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:36 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 2
+may 14, 2025 1:19:36 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 2
+may 14, 2025 1:19:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:19:38 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 2
+may 14, 2025 1:19:38 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 1:19:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 1:19:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:19:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 1:19:39 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0001va a la zona comedor
+may 14, 2025 1:19:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 1:19:41 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:19:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 1:19:43 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:19:43 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:43 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:19:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 1:19:45 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:19:46 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 1:19:46 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:46 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 2
+may 14, 2025 1:19:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:48 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 14, 2025 1:19:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:19:48 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 2
+may 14, 2025 1:19:48 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:19:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 2
+may 14, 2025 1:19:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:19:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:19:50 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 1:19:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:19:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 1:19:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0003va a la zona comedor
+may 14, 2025 1:19:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 1:19:53 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:19:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:19:54 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:19:54 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:19:56 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:19:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 1:19:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:19:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 3
+may 14, 2025 1:19:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:58 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:19:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 3
+may 14, 2025 1:19:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:19:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:19:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 3
+may 14, 2025 1:19:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:20:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:20:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:20:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:20:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 1
+may 14, 2025 1:20:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 1:20:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 1
+may 14, 2025 1:20:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 1:20:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:20:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 1
+may 14, 2025 1:20:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:20:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 14, 2025 1:20:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 0
+may 14, 2025 1:20:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:20:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:20:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 14, 2025 1:20:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 0
+may 14, 2025 1:20:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:20:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 14, 2025 1:20:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 0
+may 14, 2025 1:20:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:20:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha muerto
+may 14, 2025 1:20:08 P. M. Parte1.Logs logWarning
+WARNING: El humano H0001 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:20:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0001 en la zona 1número de muertes: 1
+may 14, 2025 1:20:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:08 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:20:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:20:09 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 1:20:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:20:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 14, 2025 1:20:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:11 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:20:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0003va a la zona comedor
+may 14, 2025 1:20:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 1
+may 14, 2025 1:20:12 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:20:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 1
+may 14, 2025 1:20:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:13 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:20:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 1:20:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 1
+may 14, 2025 1:20:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:20:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 1:20:16 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:20:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:16 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha muerto
+may 14, 2025 1:20:17 P. M. Parte1.Logs logWarning
+WARNING: El humano H0003 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0003 en la zona 1número de muertes: 1
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 2
+may 14, 2025 1:20:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha muerto
+may 14, 2025 1:20:18 P. M. Parte1.Logs logWarning
+WARNING: El humano H0010 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0010 en la zona 1número de muertes: 2
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 2
+may 14, 2025 1:20:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:20:19 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 2
+may 14, 2025 1:20:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:20:20 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 1:20:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:21 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:21 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:21 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 14, 2025 1:20:21 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:20:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 1:20:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 1:20:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:20:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0010va a la zona comedor
+may 14, 2025 1:20:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:20:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:20:25 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:20:25 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:20:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:20:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:20:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:26 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:20:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:28 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:20:28 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:20:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:20:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:30 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:20:30 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:30 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:20:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 0
+may 14, 2025 1:20:31 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:20:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:20:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 0
+may 14, 2025 1:20:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:20:32 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:20:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:20:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:33 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 0
+may 14, 2025 1:20:33 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:20:34 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:34 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 1:20:35 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 14, 2025 1:20:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:20:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:20:35 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 14, 2025 1:20:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 14, 2025 1:20:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 1:20:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:38 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:20:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:39 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:20:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:20:40 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:20:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:20:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:20:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:43 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:43 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:20:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:44 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:20:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:46 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:46 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:20:47 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:20:48 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 1
+may 14, 2025 1:20:48 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:20:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 1
+may 14, 2025 1:20:49 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:20:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:20:50 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 1
+may 14, 2025 1:20:50 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 14, 2025 1:20:50 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:51 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:20:51 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:20:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:20:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 1:20:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:20:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:20:52 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:20:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:20:53 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:53 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:54 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:20:54 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:20:54 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha muerto
+may 14, 2025 1:20:55 P. M. Parte1.Logs logWarning
+WARNING: El humano H0002 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha atacado al humano H0002 en la zona 1número de muertes: 1
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha muerto
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha atacado al humano H0002 en la zona 1número de muertes: 1
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:20:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:20:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:20:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:20:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:20:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:20:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:20:58 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:20:58 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:20:59 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:20:59 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:20:59 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:21:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:21:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 2
+may 14, 2025 1:21:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 2
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:21:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 2
+may 14, 2025 1:21:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 14, 2025 1:21:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:21:03 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:21:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:21:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 1:21:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:21:06 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 14, 2025 1:21:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:21:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:07 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:21:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:21:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:21:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 1:21:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:21:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:21:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:21:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:15 P. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 14, 2025 1:21:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 0
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:21:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:21:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 0
+may 14, 2025 1:21:18 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:21:19 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 0
+may 14, 2025 1:21:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 14, 2025 1:21:19 P. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 14, 2025 1:21:19 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:20 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:22 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:23 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 14, 2025 1:21:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:21:23 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:24 P. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha muerto
+may 14, 2025 1:21:24 P. M. Parte1.Logs logWarning
+WARNING: El humano H0010 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:21:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha atacado al humano H0010 en la zona 0número de muertes: 1
+may 14, 2025 1:21:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:21:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:24 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:25 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:25 P. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 14, 2025 1:21:25 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:21:26 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 14, 2025 1:21:27 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:28 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:21:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:29 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:30 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:30 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:21:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:31 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:32 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:32 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:32 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 14, 2025 1:21:32 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:32 P. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 14, 2025 1:21:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:33 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:34 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:21:34 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:34 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:34 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:35 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:35 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 14, 2025 1:21:36 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 3
+may 14, 2025 1:21:36 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:21:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:36 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 3
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:37 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 3
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha muerto
+may 14, 2025 1:21:38 P. M. Parte1.Logs logWarning
+WARNING: El humano H0004 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha atacado al humano H0004 en la zona 3número de muertes: 1
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 0
+may 14, 2025 1:21:38 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:39 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:40 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:21:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:41 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 0
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:42 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:43 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:43 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:21:43 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 0
+may 14, 2025 1:21:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:21:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:44 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:45 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:21:46 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:21:46 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 0
+may 14, 2025 1:21:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:47 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:48 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:21:48 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 3
+may 14, 2025 1:21:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:21:49 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:50 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:50 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:21:50 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:21:51 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:21:51 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:51 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:51 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 2
+may 14, 2025 1:21:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:21:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:21:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:52 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:21:53 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 14, 2025 1:21:53 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:53 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:21:53 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:21:54 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:54 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 2
+may 14, 2025 1:21:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:21:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:21:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:21:55 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:21:56 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:56 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:21:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 0
+may 14, 2025 1:21:57 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:21:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:21:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:21:57 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:21:58 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:21:58 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:21:58 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:59 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:21:59 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:21:59 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 1
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 3
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:22:00 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:22:01 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:22:01 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:01 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 3
+may 14, 2025 1:22:01 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:22:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 3
+may 14, 2025 1:22:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:22:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 3
+may 14, 2025 1:22:02 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 14, 2025 1:22:02 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 2
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 3
+may 14, 2025 1:22:03 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha muerto
+may 14, 2025 1:22:04 P. M. Parte1.Logs logWarning
+WARNING: El humano H0009 ha sido interrumpido en la zona de entrada del túnel
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0009 en la zona 3número de muertes: 2
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 2
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:22:04 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:22:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:22:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:22:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:22:05 P. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 14, 2025 1:22:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 1
+may 14, 2025 1:22:05 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:22:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:22:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 3
+may 14, 2025 1:22:06 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 14, 2025 1:22:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 14, 2025 1:22:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:22:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 1
+may 14, 2025 1:22:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:22:07 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:22:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:22:08 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 0
+may 14, 2025 1:22:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:22:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 14, 2025 1:22:09 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 3
+may 14, 2025 1:22:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:22:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:22:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:22:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:10 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:22:10 P. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 14, 2025 1:22:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 0
+may 14, 2025 1:22:11 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:22:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:22:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:22:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 3
+may 14, 2025 1:22:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:22:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 14, 2025 1:22:12 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 1
+may 14, 2025 1:22:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:22:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:22:13 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 2
+may 14, 2025 1:22:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:22:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 3
+may 14, 2025 1:22:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:22:14 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 2
+may 14, 2025 1:22:14 P. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 14, 2025 1:22:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 14, 2025 1:22:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 14, 2025 1:22:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 14, 2025 1:22:15 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 14, 2025 1:22:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 3
+may 14, 2025 1:22:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 1
+may 14, 2025 1:22:16 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 1
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:22:17 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 2
+may 14, 2025 1:22:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 2
+may 14, 2025 1:22:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 2
+may 14, 2025 1:22:18 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 14, 2025 1:22:19 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0002 ha entrado en la zona insegura 0
+may 14, 2025 1:22:19 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0004 ha entrado en la zona insegura 2
+may 14, 2025 1:22:19 P. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
 may 14, 2025 1:10:24 P. M. Parte1.Logs logInfo
 INFO: El humano H0001 ha comenzado a ejecutarse
 may 14, 2025 1:10:24 P. M. Parte1.Logs logInfo
@@ -16498,3 +18552,589 @@ may 14, 2025 1:52:42 P. M. Parte1.Logs logInfo
 INFO: El humano H0004va a la zona comedor
 may 14, 2025 1:52:43 P. M. Parte1.Logs logInfo
 INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:23:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 15, 2025 9:23:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 15, 2025 9:23:38 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 15, 2025 9:23:38 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 15, 2025 9:23:40 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 15, 2025 9:23:40 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 15, 2025 9:23:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 15, 2025 9:23:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 15, 2025 9:23:45 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 15, 2025 9:23:45 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 15, 2025 9:23:47 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 15, 2025 9:23:47 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:23:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 15, 2025 9:23:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 15, 2025 9:23:50 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 3
+may 15, 2025 9:23:50 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 15, 2025 9:23:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 3
+may 15, 2025 9:23:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 15, 2025 9:23:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 15, 2025 9:23:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 15, 2025 9:23:52 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 3
+may 15, 2025 9:23:52 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 15, 2025 9:23:53 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 15, 2025 9:23:53 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 15, 2025 9:23:53 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 15, 2025 9:23:55 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha muerto
+may 15, 2025 9:23:56 A. M. Parte1.Logs logWarning
+WARNING: El humano H0003 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0003 en la zona 3número de muertes: 1
+may 15, 2025 9:23:56 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:23:59 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:23:59 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 3
+may 15, 2025 9:23:59 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 1
+may 15, 2025 9:23:59 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:23:59 A. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 15, 2025 9:24:00 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 1
+may 15, 2025 9:24:00 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:24:01 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 0
+may 15, 2025 9:24:01 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 1
+may 15, 2025 9:24:01 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:24:01 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:24:02 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha muerto
+may 15, 2025 9:24:02 A. M. Parte1.Logs logWarning
+WARNING: El humano H0009 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:24:02 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0009 en la zona 1número de muertes: 2
+may 15, 2025 9:24:02 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 3
+may 15, 2025 9:24:02 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:24:03 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:24:04 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 15, 2025 9:24:04 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 2
+may 15, 2025 9:24:04 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha recogido 2 piezas de comida
+may 15, 2025 9:24:05 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:24:05 A. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 15, 2025 9:24:05 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 3
+may 15, 2025 9:24:07 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0003 ha entrado en la zona insegura 1
+may 15, 2025 9:24:07 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 2
+may 15, 2025 9:24:07 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:04 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 15, 2025 9:26:04 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 15, 2025 9:26:06 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 15, 2025 9:26:06 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 15, 2025 9:26:08 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 15, 2025 9:26:08 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 15, 2025 9:26:10 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 15, 2025 9:26:10 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 15, 2025 9:26:12 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 15, 2025 9:26:12 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 15, 2025 9:26:15 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 15, 2025 9:26:15 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:26:17 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 15, 2025 9:26:17 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 15, 2025 9:26:18 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 0
+may 15, 2025 9:26:18 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 15, 2025 9:26:19 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 15, 2025 9:26:19 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 15, 2025 9:26:19 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 0
+may 15, 2025 9:26:19 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 15, 2025 9:26:20 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 0
+may 15, 2025 9:26:20 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 0
+may 15, 2025 9:26:21 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 15, 2025 9:26:21 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 15, 2025 9:26:23 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 15, 2025 9:26:24 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 15, 2025 9:26:24 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 15, 2025 9:26:24 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:26:24 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 15, 2025 9:26:24 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha recogido 2 piezas de comida
+may 15, 2025 9:26:26 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:26:27 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 2
+may 15, 2025 9:26:27 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:28 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 2
+may 15, 2025 9:26:28 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:29 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:26:29 A. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 15, 2025 9:26:29 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 2
+may 15, 2025 9:26:29 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:30 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 15, 2025 9:26:31 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:26:32 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:26:32 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 15, 2025 9:26:32 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:26:33 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha muerto
+may 15, 2025 9:26:33 A. M. Parte1.Logs logWarning
+WARNING: El humano H0001 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:26:33 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 15, 2025 9:26:33 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0001 en la zona 2número de muertes: 1
+may 15, 2025 9:26:33 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:26:35 A. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 15, 2025 9:26:36 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 15, 2025 9:26:36 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:26:37 A. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 15, 2025 9:26:38 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:26:39 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:26:39 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 15, 2025 9:26:41 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:26:42 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 15, 2025 9:26:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0003va a la zona comedor
+may 15, 2025 9:26:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 15, 2025 9:26:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 3
+may 15, 2025 9:26:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 15, 2025 9:26:43 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 3
+may 15, 2025 9:26:43 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 15, 2025 9:26:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0010va a la zona comedor
+may 15, 2025 9:26:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 3
+may 15, 2025 9:26:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 3
+may 15, 2025 9:26:44 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:26:45 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:26:45 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:26:46 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 15, 2025 9:26:46 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 15, 2025 9:26:47 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 15, 2025 9:26:47 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:26:48 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:26:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 15, 2025 9:26:50 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:26:50 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 15, 2025 9:26:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 15, 2025 9:26:52 A. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 15, 2025 9:26:52 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:26:52 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 0
+may 15, 2025 9:26:54 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:26:54 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 2
+may 15, 2025 9:26:54 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:55 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:26:55 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 15, 2025 9:26:55 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha cruzado el tunel 2
+may 15, 2025 9:26:55 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:56 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 2
+may 15, 2025 9:26:56 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:26:57 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:26:57 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha muerto
+may 15, 2025 9:26:57 A. M. Parte1.Logs logWarning
+WARNING: El humano H0006 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:26:57 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0006 en la zona 2número de muertes: 2
+may 15, 2025 9:26:57 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0006 ha entrado en la zona insegura 2
+may 15, 2025 9:26:57 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:26:57 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 15, 2025 9:26:58 A. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 15, 2025 9:26:58 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:29:31 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha comenzado a ejecutarse
+may 15, 2025 9:29:31 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 15, 2025 9:29:33 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha comenzado a ejecutarse
+may 15, 2025 9:29:33 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 15, 2025 9:29:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha comenzado a ejecutarse
+may 15, 2025 9:29:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0003 ha entrado en la zona común
+may 15, 2025 9:29:38 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha comenzado a ejecutarse
+may 15, 2025 9:29:38 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 15, 2025 9:29:40 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha comenzado a ejecutarse
+may 15, 2025 9:29:40 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 15, 2025 9:29:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha comenzado a ejecutarse
+may 15, 2025 9:29:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:29:43 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 2
+may 15, 2025 9:29:43 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:29:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 2
+may 15, 2025 9:29:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:29:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha comenzado a ejecutarse
+may 15, 2025 9:29:44 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 15, 2025 9:29:45 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 2
+may 15, 2025 9:29:45 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:29:47 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha comenzado a ejecutarse
+may 15, 2025 9:29:47 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 15, 2025 9:29:48 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha cruzado el tunel 1
+may 15, 2025 9:29:48 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:29:48 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 15, 2025 9:29:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 1
+may 15, 2025 9:29:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:29:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha comenzado a ejecutarse
+may 15, 2025 9:29:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 15, 2025 9:29:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha recogido 2 piezas de comida
+may 15, 2025 9:29:49 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha recogido 2 piezas de comida
+may 15, 2025 9:29:50 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha cruzado el tunel 1
+may 15, 2025 9:29:50 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:29:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha comenzado a ejecutarse
+may 15, 2025 9:29:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 15, 2025 9:29:51 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:29:52 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha recogido 2 piezas de comida
+may 15, 2025 9:29:53 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha recogido 2 piezas de comida
+may 15, 2025 9:29:53 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 15, 2025 9:29:54 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:29:54 A. M. Parte1.Logs logInfo
+INFO: El humano H0005va a la zona comedor
+may 15, 2025 9:29:56 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:29:57 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha entrado en la zona común
+may 15, 2025 9:29:58 A. M. Parte1.Logs logInfo
+INFO: El humano H0007va a la zona comedor
+may 15, 2025 9:29:58 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:29:59 A. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 15, 2025 9:30:01 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:30:01 A. M. Parte1.Logs logInfo
+INFO: El humano H0007 ha entrado en la zona común
+may 15, 2025 9:30:03 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:30:03 A. M. Parte1.Logs logInfo
+INFO: El humano H0004va a la zona comedor
+may 15, 2025 9:30:05 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:30:06 A. M. Parte1.Logs logInfo
+INFO: El humano H0001va a la zona comedor
+may 15, 2025 9:30:06 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 15, 2025 9:30:08 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:30:09 A. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 15, 2025 9:30:10 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha entrado en la zona común
+may 15, 2025 9:30:10 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 1
+may 15, 2025 9:30:10 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:30:11 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:11 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 1
+may 15, 2025 9:30:11 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:30:12 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha cruzado el tunel 1
+may 15, 2025 9:30:12 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:30:13 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:30:14 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha recogido 2 piezas de comida
+may 15, 2025 9:30:14 A. M. Parte1.Logs logInfo
+INFO: El humano H0004 ha entrado en la zona común
+may 15, 2025 9:30:15 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha recogido 2 piezas de comida
+may 15, 2025 9:30:16 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:17 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha recogido 2 piezas de comida
+may 15, 2025 9:30:17 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:30:18 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:30:19 A. M. Parte1.Logs logInfo
+INFO: El humano H0010va a la zona comedor
+may 15, 2025 9:30:20 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:23 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:30:24 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha entrado en la zona común
+may 15, 2025 9:30:25 A. M. Parte1.Logs logInfo
+INFO: El humano H0008va a la zona comedor
+may 15, 2025 9:30:25 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:30:27 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:29 A. M. Parte1.Logs logInfo
+INFO: El humano H0008 ha entrado en la zona común
+may 15, 2025 9:30:29 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:30:31 A. M. Parte1.Logs logInfo
+INFO: El humano H0009va a la zona comedor
+may 15, 2025 9:30:32 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha cruzado el tunel 1
+may 15, 2025 9:30:32 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:30:32 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:33 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha cruzado el tunel 1
+may 15, 2025 9:30:33 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:30:34 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha cruzado el tunel 1
+may 15, 2025 9:30:34 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha dejado la zona común y va a la zona de entrada del túnel 1
+may 15, 2025 9:30:34 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:30:36 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:30:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha recogido 2 piezas de comida
+may 15, 2025 9:30:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha entrado en la zona común
+may 15, 2025 9:30:36 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha sobrevivido al ataque de un zombi y vuelve al refugio sin recolectar comida
+may 15, 2025 9:30:38 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 0
+may 15, 2025 9:30:39 A. M. Parte1.Logs logInfo
+INFO: El humano H0005 ha recogido 2 piezas de comida
+may 15, 2025 9:30:39 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha cruzado el tunel 2
+may 15, 2025 9:30:39 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:30:40 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha cruzado el tunel 2
+may 15, 2025 9:30:40 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:30:41 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:41 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha cruzado el tunel 2
+may 15, 2025 9:30:41 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha dejado la zona común y va a la zona de entrada del túnel 2
+may 15, 2025 9:30:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0006va a la zona comedor
+may 15, 2025 9:30:42 A. M. Parte1.Logs logInfo
+INFO: El humano H0009 ha muerto
+may 15, 2025 9:30:42 A. M. Parte1.Logs logWarning
+WARNING: El humano H0009 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:30:42 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 0
+may 15, 2025 9:30:42 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0009 en la zona 2número de muertes: 1
+may 15, 2025 9:30:42 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El humano H0001 ha muerto
+may 15, 2025 9:30:43 A. M. Parte1.Logs logWarning
+WARNING: El humano H0001 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0001 en la zona 2número de muertes: 2
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El humano H0010 ha muerto
+may 15, 2025 9:30:43 A. M. Parte1.Logs logWarning
+WARNING: El humano H0010 ha sido interrumpido en la zona de entrada del túnel
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha atacado al humano H0010 en la zona 2número de muertes: 3
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 15, 2025 9:30:43 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 1
+may 15, 2025 9:30:45 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 3
+may 15, 2025 9:30:46 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 15, 2025 9:30:46 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
+may 15, 2025 9:30:46 A. M. Parte1.Logs logInfo
+INFO: El humano H0006 ha entrado en la zona común
+may 15, 2025 9:30:46 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 15, 2025 9:30:47 A. M. Parte1.Logs logInfo
+INFO: El humano H0002va a la zona comedor
+may 15, 2025 9:30:47 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 0
+may 15, 2025 9:30:48 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 2
+may 15, 2025 9:30:48 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 3
+may 15, 2025 9:30:48 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 3
+may 15, 2025 9:30:50 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0009 ha entrado en la zona insegura 1
+may 15, 2025 9:30:51 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0001 ha entrado en la zona insegura 1
+may 15, 2025 9:30:51 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0010 ha entrado en la zona insegura 0
+may 15, 2025 9:30:51 A. M. Parte1.Logs logInfo
+INFO: El humano H0002 ha entrado en la zona común
+may 15, 2025 9:30:51 A. M. Parte1.Logs logInfo
+INFO: El zombi Z0000 ha entrado en la zona insegura 2
